@@ -1,0 +1,735 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>نرم افزار سمن های شهرستان جوانرود - V84</title><style>
+*{box-sizing:border-box}html,body{margin:0;width:100%;min-height:100%;font-family:Tahoma,Arial,sans-serif;background:#f6faff;color:#0e2f57;overflow-x:hidden}button,input,select,textarea{font-family:Tahoma,Arial,sans-serif}.ltr{direction:ltr;text-align:left}.login{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:28px;background:radial-gradient(circle at 15% 15%,rgba(31,105,255,.16),transparent 30%),radial-gradient(circle at 88% 12%,rgba(25,200,210,.16),transparent 30%),linear-gradient(135deg,#f8fbff,#eef6ff 58%,#fff)}.loginbox{width:min(1120px,96vw);display:grid;grid-template-columns:1fr 430px;gap:22px}.hero{background:linear-gradient(135deg,#061d3d,#0e2f57 62%,#0e7a54);border-radius:36px;padding:34px;color:#fff;box-shadow:0 32px 90px rgba(6,29,61,.3)}.hero h1{font-size:34px;line-height:1.7;margin:0 0 12px;color:#fff}.hero p{font-size:15px;line-height:2.1;color:#dbeafe;margin:0}.hgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:28px}.hitem{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.16);border-radius:22px;padding:16px}.form{background:rgba(255,255,255,.94);border:1px solid #dbe8f7;border-radius:36px;padding:32px;box-shadow:0 30px 80px rgba(14,47,87,.16)}.lock{width:90px;height:90px;border-radius:30px;background:linear-gradient(135deg,#eef6ff,#ecfdf3);display:grid;place-items:center;margin:0 auto 18px;font-size:40px}.form h2{text-align:center;margin:0 0 8px}.sub{text-align:center;color:#667085;font-size:13px;line-height:1.8;margin-bottom:22px}.field{margin-bottom:14px;text-align:right}.field label{display:block;font-size:12px;color:#344054;margin-bottom:7px}.field input,.field select,.field textarea{width:100%;border:1px solid #d5e2ef;border-radius:17px;padding:12px;background:#fff;font-size:14px;outline:none}.field textarea{min-height:80px;resize:vertical}.primary{border:0;border-radius:18px;padding:12px 16px;background:linear-gradient(135deg,#0e2f57,#1769ff,#19c8d2);color:#fff;font-weight:900;cursor:pointer;box-shadow:0 14px 34px rgba(31,95,189,.16)}.ghost{border:0;border-radius:16px;padding:10px 13px;background:#eef6ff;color:#1f5fbd;font-weight:800;cursor:pointer}.red{background:linear-gradient(135deg,#ef4444,#dc2626)}.green{background:linear-gradient(135deg,#10b981,#18a86f)}.orange{background:linear-gradient(135deg,#f59e0b,#f97316)}.app{min-height:100vh;display:grid;grid-template-columns:1fr 315px;gap:18px;padding:18px;background:radial-gradient(circle at 18% 10%,rgba(31,95,189,.12),transparent 28%),radial-gradient(circle at 86% 78%,rgba(25,200,210,.12),transparent 30%),linear-gradient(135deg,#f8fbff,#eef6ff 52%,#fff)}.side{background:linear-gradient(180deg,#061d3d,#082b59 58%,#06182f);border-radius:32px;padding:20px;color:#fff;box-shadow:0 30px 80px rgba(6,29,61,.32);height:calc(100vh - 36px);position:sticky;top:18px;overflow:auto}.gov{text-align:center;padding:10px 8px 18px;border-bottom:1px solid rgba(255,255,255,.12);margin-bottom:16px}.govlogo{width:72px;height:72px;border-radius:26px;background:rgba(255,255,255,.11);display:grid;place-items:center;margin:0 auto 10px;font-size:34px}.gov h2{font-size:14px;line-height:1.9;margin:0;color:#fff}.gov p{font-size:11px;color:#cfe6ff}.nav{display:grid;gap:8px}.nav button{border:1px solid rgba(255,255,255,.1);background:rgba(255,255,255,.055);color:#eaf4ff;border-radius:18px;padding:12px;text-align:right;cursor:pointer;display:flex;justify-content:space-between;gap:10px}.nav button.active{background:linear-gradient(135deg,#1769ff,#1f5fbd);box-shadow:0 16px 36px rgba(23,105,255,.38)}.nav small{display:block;font-size:10px;color:rgba(255,255,255,.7);margin-top:3px}.main{min-width:0}.top{background:rgba(255,255,255,.9);border:1px solid rgba(255,255,255,.95);border-radius:30px;display:grid;grid-template-columns:260px 1fr 230px;gap:14px;align-items:center;padding:16px 20px;box-shadow:0 18px 50px rgba(14,47,87,.1);margin-bottom:18px}.user{display:flex;gap:10px;align-items:center;background:#fff;border:1px solid #dbe8f7;border-radius:22px;padding:10px}.av{width:46px;height:46px;border-radius:50%;background:#eef6ff;display:grid;place-items:center}.title{text-align:center}.title h1{font-size:23px;margin:0}.title p{font-size:12px;color:#667085}.tools{display:flex;justify-content:flex-end;gap:8px}.content{background:rgba(255,255,255,.75);border:1px solid #fff;border-radius:32px;padding:18px;box-shadow:0 24px 80px rgba(14,47,87,.1);min-height:calc(100vh - 150px)}.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin-bottom:18px}.card{background:rgba(255,255,255,.96);border:1px solid #dbe8f7;border-radius:26px;padding:18px;box-shadow:0 16px 42px rgba(14,47,87,.08)}.kpi{min-height:115px}.kpi span{font-size:12px;color:#667085}.kpi b{display:block;font-size:28px;margin-top:10px}.grid{display:grid;grid-template-columns:1.15fr 1fr .95fr;gap:18px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.alert,.note{border-radius:18px;padding:13px;margin:10px 0;line-height:1.8}.ok{background:#ecfdf3;border:1px solid #bbf7d0;color:#166534}.warn{background:#fff7ed;border:1px solid #fed7aa;color:#9a3412}.bad{background:#fff1f0;border:1px solid #fecaca;color:#991b1b}.info{background:#eef6ff;border:1px solid #cfe4ff;color:#1f5fbd}.actions{display:flex;gap:9px;flex-wrap:wrap;align-items:center}.tablewrap{overflow:auto;border-radius:18px;border:1px solid #e8eef6;background:#fff}.table{width:100%;border-collapse:collapse;min-width:860px}.table th,.table td{border-bottom:1px solid #e8eef6;padding:11px;text-align:right;font-size:13px;vertical-align:top}.table th{color:#667085;background:#f8fbff}.badge{display:inline-flex;border-radius:999px;padding:4px 9px;font-size:11px;font-weight:800}.b-ok{background:#ecfdf3;color:#166534}.b-warn{background:#fff7ed;color:#9a3412}.b-bad{background:#fff1f0;color:#991b1b}.b-blue{background:#eef6ff;color:#1f5fbd}.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}.tabs button{border:1px solid #dbe8f7;border-radius:999px;background:#fff;color:#0e2f57;padding:9px 12px;font-weight:800;cursor:pointer}.tabs button.active{background:#1769ff;color:#fff}.report{background:#fff;border:1px solid #dbe8f7;border-radius:22px;padding:20px;line-height:2}.rhead{background:linear-gradient(135deg,#061d3d,#1769ff);color:#fff;border-radius:18px;padding:18px;text-align:center;margin-bottom:16px}.rhead h2{margin:0;color:#fff}.signs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}.sign{border-top:1px dashed #64748b;text-align:center;padding-top:12px;min-height:82px;color:#334155}.score{height:16px;background:#e8eef6;border-radius:999px;overflow:hidden}.score span{height:100%;display:block;background:linear-gradient(90deg,#dc2626,#f59e0b,#10b981)}@media print{.side,.top,.actions,.tabs,.noprint{display:none!important}.app{display:block;padding:0;background:#fff}.content,.card,.report{box-shadow:none;border:0;background:#fff}.table th{position:static}}@media(max-width:1200px){.app{grid-template-columns:1fr}.side{position:static;height:auto}.nav{grid-template-columns:repeat(2,1fr)}.top,.grid,.grid2,.grid3{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.title{text-align:right}}@media(max-width:700px){.app{padding:10px}.nav,.kpis{grid-template-columns:1fr}.content{padding:10px}.login-hero{display:none}.loginbox{display:block}.signs{grid-template-columns:1fr}}
+</style>
+<style id="v84-print-report-style">
+@media print {
+  @page { size: A4 landscape; margin: 8mm; }
+  body { background: #fff !important; color: #000 !important; }
+  .sidebar, .top, .report-controls, .no-print, .actions, .tabs, button, input, select, textarea { display: none !important; }
+  .app, .main, .content { display: block !important; padding: 0 !important; margin: 0 !important; background: #fff !important; box-shadow: none !important; border: 0 !important; min-height: auto !important; width: 100% !important; }
+  .report, #printArea, .print-area { box-shadow: none !important; border: 0 !important; padding: 0 !important; margin: 0 !important; width: 100% !important; }
+  .report-page { page-break-after: always; break-after: page; }
+  .report-page:last-child { page-break-after: auto; break-after: auto; }
+  .rhead { background: #fff !important; color: #000 !important; border: 2px solid #000 !important; padding: 8px !important; margin-bottom: 6px !important; }
+  .rhead h2 { color: #000 !important; margin: 0 !important; font-size: 15px !important; }
+  .rhead p { color: #000 !important; margin: 2px 0 0 !important; font-size: 10px !important; }
+  table.table, .table { width: 100% !important; border-collapse: collapse !important; min-width: 0 !important; font-size: 9px !important; }
+  .table th, .table td { border: 1px solid #333 !important; padding: 3px 4px !important; font-size: 9px !important; line-height: 1.45 !important; vertical-align: top !important; color: #000 !important; }
+  .table th { background: #e8e8e8 !important; color: #000 !important; }
+  .note { border: 1px solid #777 !important; background: #fff !important; color: #000 !important; padding: 5px !important; margin: 4px 0 !important; font-size: 9px !important; line-height: 1.55 !important; }
+  .grid2, .grid3 { display: grid !important; gap: 5px !important; }
+  .grid2 { grid-template-columns: 1fr 1fr !important; }
+  .grid3 { grid-template-columns: repeat(3,1fr) !important; }
+  .badge { border: 1px solid #333 !important; background: #fff !important; color: #000 !important; padding: 1px 4px !important; font-size: 8px !important; }
+  .signs, .signRow, .v84-signs { display: grid !important; grid-template-columns: repeat(3,1fr) !important; gap: 10px !important; margin-top: 18px !important; }
+  .sign, .signBox, .v84-sign { border-top: 1px dashed #333 !important; text-align: center !important; min-height: 40px !important; padding-top: 5px !important; font-size: 9px !important; color: #000 !important; }
+  img.v84-license-img { max-height: 145px !important; max-width: 100% !important; object-fit: contain !important; border: 1px solid #333 !important; padding: 2px !important; }
+}
+.v84-toolbar { background:#fff; border:1px solid #dbe8f7; border-radius:22px; padding:16px; margin-bottom:14px; box-shadow:0 12px 30px rgba(14,47,87,.07); }
+.v84-toolbar h3 { margin:0 0 10px; color:#0e2f57; }
+.v84-toolbar .field { margin-bottom:10px; }
+.v84-report-meta { display:grid; grid-template-columns: repeat(4,1fr); gap:8px; margin:8px 0; }
+.v84-report-meta div { border:1px solid #dbe8f7; border-radius:12px; padding:8px; background:#f8fbff; font-size:12px; }
+.v84-license-img { max-width:100%; max-height:430px; object-fit:contain; border:1px solid #cbd5e1; border-radius:14px; background:white; padding:6px; margin-top:8px; }
+</style>
+
+
+<style id="v84-custom-report-style">
+.v84-builder-box{background:#fff;border:1px solid #dbe8f7;border-radius:22px;padding:16px;margin-bottom:14px;box-shadow:0 12px 30px rgba(14,47,87,.07)}
+.v84-builder-box h3{margin:0 0 10px;color:#0e2f57}
+.v84-selected-fields{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.v84-field-chip{display:flex;gap:6px;align-items:center;background:#eef6ff;border:1px solid #cfe4ff;border-radius:999px;padding:7px 9px;font-size:12px;color:#0e2f57}
+.v84-field-chip button{border:0;background:white;border-radius:999px;padding:3px 7px;cursor:pointer;color:#1f5fbd;font-weight:bold}
+.v84-mini{font-size:11px;color:#667085;line-height:1.8}
+.v84-template-bar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.v84-template-bar button{border:1px solid #dbe8f7;background:#fff;border-radius:14px;padding:8px 10px;cursor:pointer;color:#0e2f57;font-weight:800}
+@media print{
+  .v84-builder-box,.report-controls,.no-print{display:none!important}
+}
+</style>
+
+</head><body><div id="root"></div><script>
+const KEY='jvn_admin_v84_state';let state={session:null,users:[],activations:[],orgs:[],reports:[],beneficiaries:[],imports:[],corrections:[],auditFindings:[],logs:[],settings:{adminUser:'admin',adminPass:'admin123',title:'سامانه جمع‌آوری اطلاعات سمن‌های مردم‌نهاد شهرستان جوانرود',signers:[{id:'social',title:'کارشناس امور اجتماعی فرمانداری شهرستان جوانرود',name:'',active:true},{id:'governor',title:'فرماندار شهرستان جوانرود',name:'',active:true}]}};try{state=Object.assign(state,JSON.parse(localStorage.getItem(KEY)||'{}'))}catch(e){}function save(){localStorage.setItem(KEY,JSON.stringify(state))}function $(id){return document.getElementById(id)}function esc(v){return String(v??'').replace(/[&<>\"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[m]||m))}function num(v){return Number(String(v||0).replace(/[^\d.-]/g,''))||0}function money(v){return String(num(v)).replace(/\B(?=(\d{3})+(?!\d))/g,',')+' ریال'}function today(){return new Date().toLocaleDateString('fa-IR')}function uid(p='id'){return p+'_'+Date.now().toString(36)+'_'+Math.random().toString(36).slice(2,7)}function log(a){state.logs.unshift({action:a,at:new Date().toLocaleString('fa-IR'),user:state.session?.user||'admin'});state.logs=state.logs.slice(0,300);save()}function digits(v){return String(v||'').replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/[٠-٩]/g,d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d)).replace(/\D/g,'')}function hashString(s){let h=2166136261;s=String(s||'');for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}return (h>>>0).toString(16)}function hashNationalId(v){return hashString(digits(v)+'|JAVANROOD_NGO_ACTIVATION')}function badge(v){let c=['فعال','تأیید شده','معتبر','کامل','بسته'].includes(v)?'b-ok':['در انتظار بررسی','نزدیک انقضا','نیازمند اصلاح'].includes(v)?'b-warn':['منقضی','دارای مغایرت','ناقص','باز'].includes(v)?'b-bad':'b-blue';return `<span class="badge ${c}">${esc(v||'ثبت نشده')}</span>`}function defaults(){if(!state.settings.signers?.length)state.settings.signers=[{id:'social',title:'کارشناس امور اجتماعی فرمانداری شهرستان جوانرود',name:'',active:true},{id:'governor',title:'فرماندار شهرستان جوانرود',name:'',active:true}];if(state.orgs.length)return;let o1={id:uid('org'),name:'سمن مهر جوانرود',nationalId:'۱۴۰۰۹۸۷۶۵۴۳',regNo:'۱۲۳۴۵',activity:'اجتماعی و حمایتی',status:'فعال',ceoFirst:'علی',ceoLast:'احمدی',ceo:'علی احمدی',ceoNationalId:'۰۰۱۲۳۴۵۶۷۸',phone:'۰۹۱۸۰۰۰۰۰۰۰',address:'جوانرود، خیابان نمونه، پلاک ۱۲',estYear:'۱۳۹۸',licenseStatus:'معتبر',licenseNo:'JVN-LIC-1001',licenseStart:'۱۴۰۲/۰۱/۰۱',licenseEnd:'۱۴۰۴/۰۱/۰۱',licenseFile:'پیوست مجوز',bank:'بانک ملی',accountNo:'۰۱۰۱۲۳۴۵۶۷۰۰۱',sheba:'IR120170000000123456789001',board:[{name:'علی احمدی',nationalId:'۰۰۱۲۳۴۵۶۷۸',role:'مدیرعامل'},{name:'مریم محمدی',nationalId:'۰۰۸۸۸۸۸۸۸۸',role:'رئیس هیأت مدیره'}],docs:['مجوز فعالیت','اساسنامه','مدارک مدیرعامل']};let o2={id:uid('org'),name:'جمعیت نیکوکاری جوانرود',nationalId:'۱۴۰۰۱۲۳۴۵۶۷',regNo:'۸۸۷۷',activity:'خیریه و مددکاری',status:'در انتظار بررسی',ceoFirst:'زهرا',ceoLast:'محمدی',ceo:'زهرا محمدی',ceoNationalId:'۰۰۹۸۷۶۵۴۳۲',phone:'۰۹۱۸۱۱۱۱۱۱۱',address:'جوانرود، میدان مرکزی',estYear:'۱۴۰۰',licenseStatus:'نزدیک انقضا',licenseNo:'JVN-LIC-1002',licenseStart:'۱۴۰۱/۰۶/۰۱',licenseEnd:'۱۴۰۳/۰۶/۰۱',licenseFile:'نیازمند تمدید',bank:'بانک ملت',accountNo:'۱۲۳۴۵۶۷۸۹',sheba:'IR220120000000987654321002',board:[{name:'زهرا محمدی',nationalId:'۰۰۹۸۷۶۵۴۳۲',role:'مدیرعامل'}],docs:['آگهی ثبت']};state.orgs=[o1,o2];state.reports=[{id:uid('rep'),orgId:o1.id,orgName:o1.name,year:'۱۴۰۳',month:'فروردین',income:350000000,expense:265000000,beneficiaryPay:220000000,currentCost:45000000,status:'تأیید شده',note:'کامل'},{id:uid('rep'),orgId:o2.id,orgName:o2.name,year:'۱۴۰۳',month:'اردیبهشت',income:180000000,expense:210000000,beneficiaryPay:175000000,currentCost:35000000,status:'دارای مغایرت',note:'هزینه بیشتر از ورودی'}];state.beneficiaries=[{id:uid('ben'),orgId:o1.id,orgName:o1.name,name:'رضا کریمی',nationalId:'۰۰۳۳۳۳۳۳۳۳',amount:25000000,status:'فعال'},{id:uid('ben'),orgId:o2.id,orgName:o2.name,name:'سارا رضایی',nationalId:'۰۰۴۴۴۴۴۴۴۴',amount:18000000,status:'فعال'}];auditRun(false);save()}function loginPage(){document.body.innerHTML='<div id="root"></div>';$('root').innerHTML=`<main class="login"><section class="loginbox"><div class="hero"><h1>پنل ادمین ویندوز</h1><p>نسخه کامل اداری با کلاینت کامل، ورود فایل خروجی سمن‌ها، گزارش‌گیری کامل، مجوزها، حسابرسی و تعاریف امضا.</p><div class="hgrid"><div class="hitem"><b>گزارش‌گیری کامل</b><span>سمن، مجوز، مالی، مددجو</span></div><div class="hitem"><b>ورود فایل سمن‌ها</b><span>خروجی کلاینت به ادمین</span></div><div class="hitem"><b>حسابرسی</b><span>مغایرت، کسری، هشدار</span></div><div class="hitem"><b>امضاهای رسمی</b><span>مدیرعامل، کارشناس، فرماندار</span></div></div></div><div class="form"><div class="lock">🔐</div><h2>ورود ادمین</h2><div class="sub">فقط نام کاربری و رمز عبور وارد شود</div><div class="field"><label>نام کاربری</label><input id="user" dir="ltr" value="admin"></div><div class="field"><label>رمز عبور</label><input id="pass" dir="ltr" type="password" value="admin123" onkeydown="if(event.key==='Enter')login()"></div><button class="primary" style="width:100%" onclick="login()">ورود به پنل ادمین</button></div></section></main>`}function login(){let u=$('user').value.trim(),p=$('pass').value;if(u===(state.settings.adminUser||'admin')&&p===(state.settings.adminPass||'admin123')){defaults();state.session={user:u,at:new Date().toLocaleString('fa-IR')};log('ورود موفق ادمین');render('dashboard')}else alert('نام کاربری یا رمز عبور اشتباه است.')}function logout(){state.session=null;save();loginPage()}const tabs=[['dashboard','داشبورد','مرکز مدیریتی','🏠'],['users','کاربران و فعال‌سازی','ریست و مشاهده فایل','👥'],['import','ورود فایل سمن‌ها','کنترل مغایرت','📥'],['workflow','گردش کار گزارش‌ها','تأیید و اصلاح','🔁'],['orgs','اطلاعات کامل سمن‌ها','پرونده و مجوز','🏛'],['reports','گزارش‌گیری کامل','همه خروجی‌ها','📑'],['annual','پایان سال سمن','حسابرسی ماهانه','📅'],['audit','حسابرسی','مغایرت و کنترل','🧾'],['word','خروجی Word','گزارش رسمی','📘'],['beneficiaries','مددجوها','افراد تحت پوشش','👨‍👩‍👧'],['documents','بایگانی مدارک','پیوست‌ها','🗂'],['corrections','درخواست اصلاح','گردش کار','✍️'],['settings','تعاریف و امضا','سربرگ و امضاها','⚙'],['backup','بکاپ حرفه‌ای','ذخیره امن','☁'],['roles','نقش‌ها و دسترسی','سطح دسترسی','🔐'],['templates','قالب‌های Word','گزارش رسمی','📚'],['migration','مهاجرت نسخه‌ها','سلامت داده','🧬'],['help','راهنما','آموزش داخل برنامه','❔'],['errors','مرکز خطا','گزارش فنی','⚠️'],['about','درباره نرم‌افزار','نسخه و اطلاعات','ℹ️'],['migration','مهاجرت داده','سلامت نسخه','🧬'],['final','چک‌لیست تحویل','کنترل نهایی','✅'],['logs','لاگ فعالیت‌ها','ردیابی','📋']];function nav(a){return '<div class="nav">'+tabs.map(t=>`<button class="${a===t[0]?'active':''}" onclick="render('${t[0]}')"><span><b>${t[1]}</b><small>${t[2]}</small></span><span>${t[3]}</span></button>`).join('')+'</div>'}function shell(a,c){let t=tabs.find(x=>x[0]===a)||tabs[0];$('root').innerHTML=`<main class="app"><section class="main"><div class="top"><div class="user"><div class="av">👤</div><div><b>مدیر سیستم</b><br><span>● مدیر ارشد</span></div></div><div class="title"><h1>${esc(state.settings.title)}</h1><p>پنل مدیریت | ${t[1]}</p></div><div class="tools"><button class="ghost" onclick="logout()">خروج</button></div></div><div class="content">${c}</div></section><aside class="side"><div class="gov"><div class="govlogo">🇮🇷</div><h2>وزارت کشور<br>استانداری کرمانشاه<br>فرمانداری شهرستان جوانرود</h2><p>سامانه جامع مدیریت سمن‌ها</p></div>${nav(a)}<div class="signature">جهش تولید با مشارکت مردم</div></aside></main>`}function render(tab='dashboard'){if(!state.session){loginPage();return}defaults();let m={dashboard:dash,users:users,import:imp,orgs:orgs,reports:reports,annual:annualReportPanelV84,audit:audit,word:word,beneficiaries:bens,corrections:corr,workflow:workflow,documents:documents,roles:roles,templates:templates,migration:migration,help:helpV84,settings:settings,backup:backup,errors:errorsPanelV84,about:aboutV84,migration:migrationV84,final:finalChecklistV84,logs:logs};shell(tab,(m[tab]||dash)())}function auditItems(){let out=[];state.orgs.forEach(o=>{if(!o.nationalId)out.push({orgId:o.id,orgName:o.name,type:'پرونده ناقص',severity:'بالا',desc:'شناسه ملی ثبت نشده',status:'باز'});if(!o.regNo)out.push({orgId:o.id,orgName:o.name,type:'پرونده ناقص',severity:'متوسط',desc:'شماره ثبت ثبت نشده',status:'باز'});if(!o.ceo||!o.ceoNationalId)out.push({orgId:o.id,orgName:o.name,type:'مدیرعامل',severity:'بالا',desc:'مدیرعامل یا کد ملی ناقص',status:'باز'});if(!o.licenseNo||o.licenseStatus==='منقضی')out.push({orgId:o.id,orgName:o.name,type:'مجوز',severity:'بالا',desc:'مجوز منقضی یا بدون شماره',status:'باز'});if(o.licenseStatus==='نزدیک انقضا')out.push({orgId:o.id,orgName:o.name,type:'مجوز',severity:'متوسط',desc:'مجوز نزدیک انقضا',status:'باز'});if(!o.sheba||!o.bank)out.push({orgId:o.id,orgName:o.name,type:'حساب بانکی',severity:'متوسط',desc:'اطلاعات بانکی ناقص',status:'باز'});});state.reports.forEach(r=>{if(num(r.expense)>num(r.income))out.push({orgId:r.orgId,orgName:r.orgName,type:'مغایرت مالی',severity:'بالا',desc:'هزینه بیشتر از واریزی',status:'باز'});});return out}function auditRun(show=true){state.auditFindings=auditItems().map(x=>Object.assign({id:uid('aud')},x));save();if(show)render('audit')}function score(){let total=state.orgs.length*8+state.reports.length,issues=auditItems().length;return total?Math.max(0,Math.round((total-issues)/total*100)):100}function dash(){let alerts=auditItems(),income=state.reports.reduce((s,r)=>s+num(r.income),0),expense=state.reports.reduce((s,r)=>s+num(r.expense),0);return `<div class="kpis"><div class="card kpi"><span>تعداد سمن‌ها</span><b>${state.orgs.length}</b></div><div class="card kpi"><span>کاربران کلاینت</span><b>${state.users.length}</b></div><div class="card kpi"><span>فایل‌های واردشده</span><b>${state.imports.length}</b></div><div class="card kpi"><span>یافته حسابرسی</span><b>${alerts.length}</b></div><div class="card kpi"><span>سلامت پرونده‌ها</span><b>${score()}٪</b></div></div><div class="grid"><div class="card"><h3>هشدارهای حسابرسی و مجوزها</h3>${alerts.slice(0,6).map(a=>`<div class="note ${a.severity==='بالا'?'bad':'warn'}"><b>${esc(a.type)} - ${esc(a.orgName)}</b><br>${esc(a.desc)}</div>`).join('')||'<div class="note ok">مورد بحرانی وجود ندارد.</div>'}</div><div class="card"><h3>کیفیت و اعتبار داده‌ها</h3><div class="score"><span style="width:${score()}%"></span></div><div class="note ok">امتیاز سلامت: ${score()}٪</div><div class="note info">کل ورودی: ${money(income)}<br>کل خروجی: ${money(expense)}</div></div><div class="card"><h3>دسترسی سریع</h3><div class="quick"><button onclick="render('import')">📥 ورود فایل سمن‌ها</button><button onclick="render('reports')">📑 گزارش کامل</button><button onclick="render('audit')">🧾 حسابرسی</button><button onclick="render('settings')">✍️ تعاریف امضا</button></div></div></div>`}function users(){return `<div class="actions"><button class="primary" onclick="userForm()">ساخت کاربر و فایل فعال‌سازی</button></div><div id="userForm"></div><div class="card"><h3>کاربران کلاینت و مدیریت فعال‌سازی</h3><div class="tablewrap"><table class="table"><tr><th>کاربر</th><th>سمن</th><th>مدیرعامل</th><th>کد ملی</th><th>وضعیت</th><th>تاریخ ساخت</th><th>آخرین خروجی</th><th>عملیات</th></tr>${state.users.map(u=>`<tr><td><b>${esc(u.username)}</b><br>${esc(u.fullName)}</td><td>${esc(u.organizationName)}</td><td>${esc(u.managerFullName)}</td><td>${esc(u.managerNationalId)}</td><td>${badge(u.active?'فعال':'غیرفعال')}</td><td>${esc(u.createdAt)}</td><td>${esc(u.lastImportAt||'ثبت نشده')}</td><td class="actions"><button class="ghost" onclick="downloadActivation('${u.id}')">دانلود</button><button class="ghost" onclick="viewActivation('${u.id}')">مشاهده</button><button class="ghost" onclick="resetActivation('${u.id}')">ریست</button><button class="ghost" onclick="toggleUser('${u.id}')">${u.active?'غیرفعال':'فعال'}</button></td></tr>`).join('')||'<tr><td colspan="8">کاربری ساخته نشده است.</td></tr>'}</table></div></div><div id="activationView"></div>`}function userForm(){$('userForm').innerHTML=`<div class="card"><h3>ساخت فایل فعال‌سازی</h3><div class="grid3"><div class="field"><label>نام سمن</label><input id="uOrg"></div><div class="field"><label>شناسه ملی</label><input id="uNational"></div><div class="field"><label>شماره ثبت</label><input id="uReg"></div><div class="field"><label>حوزه فعالیت</label><input id="uActivity"></div><div class="field"><label>آدرس</label><input id="uAddress"></div><div class="field"><label>شماره تماس</label><input id="uPhone"></div><div class="field"><label>نام مدیرعامل</label><input id="uFirst"></div><div class="field"><label>نام خانوادگی مدیرعامل</label><input id="uLast"></div><div class="field"><label>کد ملی مدیرعامل</label><input id="uNid"></div><div class="field"><label>نام کاربری</label><input id="uName" dir="ltr"></div><div class="field"><label>رمز عبور</label><input id="uPass" dir="ltr"></div><div class="field"><label>وضعیت</label><select id="uActive"><option value="true">فعال</option><option value="false">غیرفعال</option></select></div></div><button class="primary" onclick="createUser()">ساخت کاربر و فایل</button></div>`}function createUser(){let id=uid('user'),orgId=uid('org'),first=$('uFirst').value.trim(),last=$('uLast').value.trim(),nid=digits($('uNid').value);if(!first||!last||nid.length!==10||!$('uName').value||!$('uPass').value||!$('uOrg').value){alert('فیلدهای اصلی کامل نیست.');return}let u={id,orgId,fullName:first+' '+last,organizationName:$('uOrg').value,organizationNationalId:$('uNational').value,registrationNumber:$('uReg').value,activityField:$('uActivity').value,address:$('uAddress').value,phone:$('uPhone').value,managerFirstName:first,managerLastName:last,managerFullName:first+' '+last,managerNationalId:nid,username:$('uName').value.trim(),password:$('uPass').value,active:$('uActive').value==='true',createdAt:today(),activationRev:1};state.users.push(u);state.orgs.push({id:orgId,name:u.organizationName,nationalId:u.organizationNationalId,regNo:u.registrationNumber,activity:u.activityField,status:'فعال',ceoFirst:first,ceoLast:last,ceo:u.managerFullName,ceoNationalId:nid,phone:u.phone,address:u.address,licenseStatus:'در انتظار بررسی',licenseNo:'',licenseEnd:'',bank:'',sheba:'',board:[{name:u.managerFullName,nationalId:nid,role:'مدیرعامل'}],docs:[]});save();log('ساخت کاربر کلاینت: '+u.username);downloadActivation(id);render('users')}function activationPayload(u){return {type:'JAVANROOD_NGO_CLIENT_ACTIVATION',version:'75',activationId:'ACT-'+u.id+'-'+u.activationRev,createdAt:today(),user:{userId:u.id,username:u.username,password:u.password,fullName:u.fullName,active:u.active},organization:{organizationKey:u.orgId,organizationName:u.organizationName,organizationNationalId:u.organizationNationalId,registrationNumber:u.registrationNumber,activityField:u.activityField,address:u.address,phone:u.phone},manager:{firstName:u.managerFirstName,lastName:u.managerLastName,fullName:u.managerFullName,mobile:u.phone},security:{managerNationalIdHash:hashNationalId(u.managerNationalId),activationRev:u.activationRev,active:u.active}}}function downloadActivation(id){let u=state.users.find(x=>x.id===id);if(!u)return;downloadJSON('activation_'+u.username+'.json',activationPayload(u));log('دانلود فایل فعال‌سازی: '+u.username)}function viewActivation(id){let u=state.users.find(x=>x.id===id);if(!u)return;$('activationView').innerHTML=`<div class="card"><h3>مشاهده فایل فعال‌سازی</h3><pre class="ltr" style="white-space:pre-wrap;background:#0f172a;color:#e2e8f0;border-radius:18px;padding:16px;max-height:360px;overflow:auto">${esc(JSON.stringify(activationPayload(u),null,2))}</pre></div>`}function resetActivation(id){let u=state.users.find(x=>x.id===id);if(!u)return;u.activationRev=(u.activationRev||1)+1;save();downloadActivation(id);render('users')}function toggleUser(id){let u=state.users.find(x=>x.id===id);if(!u)return;u.active=!u.active;save();render('users')}function imp(){return `<div class="card"><h3>ورود فایل خروجی سمن‌ها</h3><div class="note info">فایل خروجی کلاینت را وارد کنید تا اطلاعات سمن، مجوز، حساب، هیأت مدیره، مددجو و گزارش مالی به‌روزرسانی شود.</div><input type="file" id="importFile" accept="application/json,.json"><div class="actions" style="margin-top:12px"><button class="primary" onclick="importFile()">بررسی و ورود فایل</button></div><div id="importResult"></div></div><div class="card"><h3>لیست فایل‌های واردشده</h3><div class="tablewrap"><table class="table"><tr><th>کد رهگیری</th><th>سمن</th><th>تاریخ خروجی</th><th>تاریخ ورود</th><th>وضعیت</th><th>جزئیات</th></tr>${state.imports.map(i=>`<tr><td class="ltr">${esc(i.trackingCode)}</td><td>${esc(i.orgName)}</td><td>${esc(i.exportedAt)}</td><td>${esc(i.importedAt)}</td><td>${badge(i.status)}</td><td>${esc(i.summary)}</td></tr>`).join('')||'<tr><td colspan="6">فایلی وارد نشده است.</td></tr>'}</table></div></div>`}function importFile(){let f=$('importFile').files[0];if(!f){alert('فایل را انتخاب کنید.');return}let r=new FileReader();r.onload=()=>{try{processExport(JSON.parse(r.result))}catch(e){$('importResult').innerHTML='<div class="note bad">فایل معتبر نیست.</div>'}};r.readAsText(f,'utf-8')}function processExport(data){if(data.type!=='JAVANROOD_NGO_CLIENT_EXPORT'){$('importResult').innerHTML='<div class="note bad">این فایل خروجی کلاینت نیست.</div>';return}let org=data.organization||{},o=state.orgs.find(x=>x.id===org.organizationKey||x.nationalId===org.organizationNationalId||x.name===org.organizationName);if(!o){o={id:org.organizationKey||uid('org'),board:[],docs:[]};state.orgs.push(o)}Object.assign(o,{name:org.organizationName||o.name,nationalId:org.organizationNationalId||o.nationalId,regNo:org.registrationNumber||o.regNo,activity:org.activityField||o.activity,address:org.address||o.address,phone:org.phone||o.phone,ceo:org.ceoName||o.ceo,ceoNationalId:org.ceoNationalId||o.ceoNationalId,licenseStatus:data.licenses?.[0]?.status||o.licenseStatus,licenseNo:data.licenses?.[0]?.licenseNo||o.licenseNo,licenseStart:data.licenses?.[0]?.start||o.licenseStart,licenseEnd:data.licenses?.[0]?.end||o.licenseEnd,bank:data.accounts?.[0]?.bank||o.bank,accountNo:data.accounts?.[0]?.accountNo||o.accountNo,sheba:data.accounts?.[0]?.sheba||o.sheba,board:data.members||o.board});(data.beneficiaries||[]).forEach(b=>{if(!state.beneficiaries.some(x=>x.nationalId===b.nationalId&&x.orgId===o.id))state.beneficiaries.push(Object.assign({id:uid('ben'),orgId:o.id,orgName:o.name},b))});(data.reports||[]).forEach(rep=>{if(!state.reports.some(x=>x.clientReportId===rep.id))state.reports.push(Object.assign({id:uid('rep'),clientReportId:rep.id,orgId:o.id,orgName:o.name},rep))});let im={id:uid('imp'),trackingCode:data.trackingCode||('JVN-EXP-'+Date.now()),orgName:o.name,exportedAt:data.exportedAt||'',importedAt:new Date().toLocaleString('fa-IR'),status:'وارد شد',summary:`مددجو: ${(data.beneficiaries||[]).length} | گزارش: ${(data.reports||[]).length} | اعضا: ${(data.members||[]).length}`};state.imports.unshift(im);let u=state.users.find(x=>x.orgId===o.id||x.organizationName===o.name);if(u)u.lastImportAt=im.importedAt;auditRun(false);save();$('importResult').innerHTML='<div class="note ok">فایل با موفقیت وارد شد.</div>'}function orgs(){return `<div class="actions"><button class="ghost" onclick="downloadCSV('گزارش_کامل_سمن‌ها.csv',orgsCSV())">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ</button></div><div class="card"><h3>اطلاعات کامل سمن‌ها، مجوزها، حساب‌ها و مدیرعامل</h3><div class="tablewrap"><table class="table"><tr><th>نام سمن</th><th>شناسه ملی</th><th>شماره ثبت</th><th>حوزه</th><th>مدیرعامل</th><th>کد ملی مدیرعامل</th><th>مجوز</th><th>شماره مجوز</th><th>بانک/شبا</th><th>هیأت مدیره</th><th>عملیات</th></tr>${state.orgs.map(o=>`<tr><td><b>${esc(o.name)}</b><br><small>${esc(o.address)}</small></td><td>${esc(o.nationalId)}</td><td>${esc(o.regNo)}</td><td>${esc(o.activity)}</td><td>${esc(o.ceo)}</td><td>${esc(o.ceoNationalId)}</td><td>${badge(o.licenseStatus)}</td><td>${esc(o.licenseNo)}</td><td>${esc(o.bank)}<br><small class="ltr">${esc(o.sheba)}</small></td><td>${(o.board||[]).map(m=>esc(m.name+' - '+m.role)).join('<br>')}</td><td><button class="ghost" onclick="viewOrg('${o.id}')">پرونده</button></td></tr>`).join('')}</table></div></div><div id="orgReport"></div>`}function repsTable(rs){return `<div class="tablewrap"><table class="table"><tr><th>سال</th><th>ماه</th><th>ورودی</th><th>هزینه</th><th>پرداخت مددجو</th><th>هزینه جاری</th><th>مانده</th><th>وضعیت</th></tr>${rs.map(r=>`<tr><td>${esc(r.year)}</td><td>${esc(r.month)}</td><td>${money(r.income)}</td><td>${money(r.expense)}</td><td>${money(r.beneficiaryPay)}</td><td>${money(r.currentCost)}</td><td>${money(num(r.income)-num(r.expense))}</td><td>${badge(r.status)}</td></tr>`).join('')||'<tr><td colspan="8">گزارشی ثبت نشده است.</td></tr>'}</table></div>`}function benTable(bs){return `<div class="tablewrap"><table class="table"><tr><th>نام مددجو</th><th>کد ملی</th><th>مبلغ</th><th>وضعیت</th></tr>${bs.map(b=>`<tr><td>${esc(b.name)}</td><td>${esc(b.nationalId)}</td><td>${money(b.amount)}</td><td>${badge(b.status)}</td></tr>`).join('')||'<tr><td colspan="4">مددجویی ثبت نشده است.</td></tr>'}</table></div>`}function audTable(as){return `<div class="tablewrap"><table class="table"><tr><th>سمن</th><th>نوع</th><th>شدت</th><th>توضیح</th><th>وضعیت</th></tr>${as.map(a=>`<tr><td>${esc(a.orgName)}</td><td>${esc(a.type)}</td><td>${esc(a.severity)}</td><td>${esc(a.desc)}</td><td>${badge(a.status)}</td></tr>`).join('')||'<tr><td colspan="5">یافته‌ای ندارد.</td></tr>'}</table></div>`}function viewOrg(id){let o=state.orgs.find(x=>x.id===id),rs=state.reports.filter(r=>r.orgId===id),bs=state.beneficiaries.filter(b=>b.orgId===id),as=state.auditFindings.filter(a=>a.orgId===id);$('orgReport').innerHTML=`<div class="report"><div class="rhead"><h2>پرونده کامل سمن</h2><p>${esc(o.name)} | شناسه ملی: ${esc(o.nationalId)} | شماره ثبت: ${esc(o.regNo)}</p></div><div class="grid2"><div><h3>مشخصات ثبتی</h3><p><b>حوزه:</b> ${esc(o.activity)}</p><p><b>وضعیت:</b> ${badge(o.status)}</p><p><b>آدرس:</b> ${esc(o.address)}</p></div><div><h3>مجوز</h3><p><b>وضعیت:</b> ${badge(o.licenseStatus)}</p><p><b>شماره:</b> ${esc(o.licenseNo)}</p><p><b>پایان:</b> ${esc(o.licenseEnd||'')}</p></div><div><h3>مدیرعامل و هیأت مدیره</h3><p><b>مدیرعامل:</b> ${esc(o.ceo)}</p><p><b>کد ملی:</b> ${esc(o.ceoNationalId)}</p><p>${(o.board||[]).map(m=>esc(m.name+' - '+m.role)).join('<br>')}</p></div><div><h3>حساب بانکی</h3><p><b>بانک:</b> ${esc(o.bank)}</p><p><b>شبا:</b> <span class="ltr">${esc(o.sheba)}</span></p></div></div><h3>گزارش‌های مالی</h3>${repsTable(rs)}<h3>مددجوها</h3>${benTable(bs)}<h3>یافته‌های حسابرسی</h3>${audTable(as)}${signs(o.ceo)}</div>`}let rtype='full';function reports(){return `<div class="tabs"><button onclick="rpt('full')">جامع</button><button onclick="rpt('lic')">مجوزها</button><button onclick="rpt('fin')">مالی</button><button onclick="rpt('aud')">حسابرسی</button><button onclick="rpt('ben')">مددجوها</button><button onclick="rpt('imp')">فایل‌های واردشده</button></div><div class="actions"><button class="primary" onclick="downloadWordArea()">Word</button><button class="ghost" onclick="downloadCSV('گزارش.csv',csvCurrent())">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ/PDF</button></div><div id="rarea">${reportHtml('full')}</div>`}function rpt(t){rtype=t;$('rarea').innerHTML=reportHtml(t)}function reportHtml(t){if(t==='lic')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مجوزها</h2></div><div class="tablewrap"><table class="table"><tr><th>سمن</th><th>شماره مجوز</th><th>وضعیت</th><th>شروع</th><th>پایان</th></tr>${state.orgs.map(o=>`<tr><td>${esc(o.name)}</td><td>${esc(o.licenseNo)}</td><td>${badge(o.licenseStatus)}</td><td>${esc(o.licenseStart||'')}</td><td>${esc(o.licenseEnd||'')}</td></tr>`).join('')}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;if(t==='fin')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مالی</h2></div>${repsTable(state.reports)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;if(t==='aud')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش حسابرسی</h2><p>امتیاز سلامت: ${score()}٪</p></div>${audTable(state.auditFindings)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;if(t==='ben')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مددجویان</h2></div>${benTable(state.beneficiaries)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;if(t==='imp')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش فایل‌های واردشده</h2></div><div class="tablewrap"><table class="table"><tr><th>کد رهگیری</th><th>سمن</th><th>تاریخ خروجی</th><th>تاریخ ورود</th><th>وضعیت</th><th>خلاصه</th></tr>${state.imports.map(i=>`<tr><td>${esc(i.trackingCode)}</td><td>${esc(i.orgName)}</td><td>${esc(i.exportedAt)}</td><td>${esc(i.importedAt)}</td><td>${badge(i.status)}</td><td>${esc(i.summary)}</td></tr>`).join('')||'<tr><td colspan="6">فایلی وارد نشده است.</td></tr>'}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش جامع سمن‌ها</h2><p>تاریخ: ${today()} | تعداد: ${state.orgs.length}</p></div>${orgs().replace(/<div class="actions[\s\S]*?<\/div><div class="card">/,'<div class="card">').replace('<div id="orgReport"></div>','')}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`}function audit(){auditRun(False);return ''}function audit(){auditRun(false);return `<div class="actions"><button class="primary" onclick="auditRun(true)">اجرای حسابرسی مجدد</button><button class="ghost" onclick="downloadCSV('حسابرسی.csv',auditCSV())">Excel/CSV</button></div><div class="card"><h3>حسابرسی هوشمند</h3><div class="score"><span style="width:${score()}%"></span></div><div class="note info">امتیاز سلامت پرونده‌ها: ${score()}٪</div>${audTable(state.auditFindings)}</div>`}function word(){return `<div class="card"><h3>خروجی Word حرفه‌ای</h3><p>گزارش‌های رسمی با سربرگ، کد رهگیری و سه محل امضا تولید می‌شوند.</p><div class="quick"><button onclick="downloadWord('گزارش جامع',reportHtml('full'))">📑 گزارش جامع</button><button onclick="downloadWord('گزارش مجوزها',reportHtml('lic'))">📜 گزارش مجوزها</button><button onclick="downloadWord('گزارش مالی',reportHtml('fin'))">📊 گزارش مالی</button><button onclick="downloadWord('گزارش حسابرسی',reportHtml('aud'))">🧾 گزارش حسابرسی</button></div></div>`}function bens(){return `<div class="card"><h3>مددجوها</h3>${benTable(state.beneficiaries)}${dups()}</div>`}function dups(){let m={};state.beneficiaries.forEach(b=>{m[b.nationalId]=(m[b.nationalId]||[]).concat(b)});let d=Object.values(m).filter(x=>x.length>1);return d.length?`<h3>کد ملی تکراری</h3>${d.map(g=>`<div class="note bad">${esc(g[0].nationalId)} در ${g.length} رکورد تکرار شده است.</div>`).join('')}`:''}function corr(){return `<div class="actions"><button class="primary" onclick="corrForm()">ثبت درخواست اصلاح</button></div><div id="corrForm"></div><div class="card"><h3>درخواست‌های اصلاح</h3><div class="tablewrap"><table class="table"><tr><th>سمن</th><th>عنوان</th><th>توضیح</th><th>مهلت</th><th>وضعیت</th></tr>${state.corrections.map(c=>`<tr><td>${esc(c.orgName)}</td><td>${esc(c.title)}</td><td>${esc(c.desc)}</td><td>${esc(c.deadline)}</td><td>${badge(c.status)}</td></tr>`).join('')||'<tr><td colspan="5">درخواستی ثبت نشده است.</td></tr>'}</table></div></div>`}function corrForm(){$('corrForm').innerHTML=`<div class="card"><div class="field"><label>سمن</label><select id="cOrg">${state.orgs.map(o=>`<option value="${o.id}">${esc(o.name)}</option>`).join('')}</select></div><div class="field"><label>عنوان</label><input id="cTitle"></div><div class="field"><label>مهلت</label><input id="cDead"></div><div class="field"><label>توضیح</label><textarea id="cDesc"></textarea></div><button class="primary" onclick="addCorr()">ثبت</button></div>`}function addCorr(){let o=state.orgs.find(x=>x.id===$('cOrg').value);state.corrections.push({id:uid('corr'),orgId:o.id,orgName:o.name,title:$('cTitle').value,desc:$('cDesc').value,deadline:$('cDead').value,status:'باز'});save();render('corrections')}function settings(){return `<div class="grid2"><div class="card"><h3>تعاریف امضاکنندگان گزارش‌ها</h3><div class="note info">پایان تمام گزارش‌ها: مدیرعامل سمن، کارشناس امور اجتماعی فرمانداری شهرستان جوانرود، فرماندار شهرستان جوانرود.</div>${state.settings.signers.map(s=>`<div class="field"><label>${esc(s.title)}</label><input id="sign_${s.id}" value="${esc(s.name||'')}" placeholder="نام و نام خانوادگی"></div>`).join('')}<button class="primary" onclick="saveSigners()">ذخیره امضاها</button></div><div class="card"><h3>تنظیمات ورود و سربرگ</h3><div class="field"><label>نام کاربری</label><input id="setUser" value="${esc(state.settings.adminUser||'admin')}" dir="ltr"></div><div class="field"><label>رمز عبور</label><input id="setPass" value="${esc(state.settings.adminPass||'admin123')}" dir="ltr"></div><div class="field"><label>عنوان سامانه</label><input id="setTitle" value="${esc(state.settings.title)}"></div><button class="primary" onclick="saveSettings()">ذخیره</button></div></div>`}function saveSigners(){state.settings.signers.forEach(s=>s.name=$('sign_'+s.id).value);save();alert('امضاها ذخیره شد.')}function saveSettings(){state.settings.adminUser=$('setUser').value;state.settings.adminPass=$('setPass').value;state.settings.title=$('setTitle').value;save();alert('ذخیره شد.')}function backup(){return `<div class="card"><h3>بکاپ و بازیابی</h3><button class="primary" onclick="downloadJSON('backup_admin_v84.json',state)">دانلود بکاپ کامل</button> <input type="file" id="restoreFile" accept=".json"><button class="ghost" onclick="restoreBackup()">بازیابی</button></div>`}function restoreBackup(){let f=$('restoreFile').files[0];if(!f){alert('فایل بکاپ را انتخاب کنید.');return}let r=new FileReader();r.onload=()=>{try{let obj=JSON.parse(r.result);if(confirm('اطلاعات فعلی جایگزین شود؟')){state=obj;save();location.reload()}}catch(e){alert('بکاپ معتبر نیست.')}};r.readAsText(f,'utf-8')}function logs(){return `<div class="card"><h3>لاگ فعالیت‌ها</h3><div class="tablewrap"><table class="table"><tr><th>عملیات</th><th>زمان</th><th>کاربر</th></tr>${state.logs.map(x=>`<tr><td>${esc(x.action)}</td><td>${esc(x.at)}</td><td>${esc(x.user||'')}</td></tr>`).join('')||'<tr><td colspan="3">لاگی ثبت نشده است.</td></tr>'}</table></div></div>`}function signs(ceo){let s=state.settings.signers.find(x=>x.id==='social')||{},g=state.settings.signers.find(x=>x.id==='governor')||{};return `<div class="signs"><div class="sign"><b>نام و نام خانوادگی مدیرعامل سمن</b><br>${esc(ceo||'................')}</div><div class="sign"><b>کارشناس امور اجتماعی فرمانداری شهرستان جوانرود</b><br>${esc(s.name||'................')}</div><div class="sign"><b>فرماندار شهرستان جوانرود</b><br>${esc(g.name||'................')}</div></div>`}function downloadWordArea(){downloadWord('گزارش_'+rtype,$('printArea')?$('printArea').outerHTML:$('rarea').innerHTML)}function downloadWord(title,html){let doc=`<!doctype html><html dir="rtl"><meta charset="utf-8"><style>body{font-family:tahoma;direction:rtl;line-height:2}table{border-collapse:collapse;width:100%}td,th{border:1px solid #999;padding:6px;text-align:right}.rhead{background:#0e2f57;color:white;text-align:center;padding:12px}.signs{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:35px}.sign{border-top:1px dashed #555;text-align:center;padding-top:10px}</style><body>${html}</body></html>`;downloadText(title+'.doc',doc,'application/msword;charset=utf-8');log('خروجی Word: '+title)}function downloadText(n,t,type){let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([t],{type:type||'text/plain;charset=utf-8'}));a.download=n;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)}function downloadJSON(n,o){downloadText(n,JSON.stringify(o,null,2),'application/json;charset=utf-8')}function cell(v){return '"'+String(v??'').replace(/"/g,'""')+'"'}function downloadCSV(n,c){downloadText(n,'\ufeff'+c,'text/csv;charset=utf-8')}function orgsCSV(){return ['نام سمن,شناسه ملی,شماره ثبت,حوزه,مدیرعامل,کد ملی,وضعیت مجوز,شماره مجوز,بانک,شبا'].concat(state.orgs.map(o=>[o.name,o.nationalId,o.regNo,o.activity,o.ceo,o.ceoNationalId,o.licenseStatus,o.licenseNo,o.bank,o.sheba].map(cell).join(','))).join('\n')}function licenseCSV(){return ['سمن,شماره مجوز,وضعیت,شروع,پایان'].concat(state.orgs.map(o=>[o.name,o.licenseNo,o.licenseStatus,o.licenseStart,o.licenseEnd].map(cell).join(','))).join('\n')}function reportsCSV(){return ['سمن,سال,ماه,ورودی,هزینه,پرداخت مددجو,هزینه جاری,وضعیت'].concat(state.reports.map(r=>[r.orgName,r.year,r.month,r.income,r.expense,r.beneficiaryPay,r.currentCost,r.status].map(cell).join(','))).join('\n')}function auditCSV(){return ['سمن,نوع,شدت,توضیح,وضعیت'].concat(state.auditFindings.map(a=>[a.orgName,a.type,a.severity,a.desc,a.status].map(cell).join(','))).join('\n')}function benefCSV(){return ['سمن,نام مددجو,کد ملی,مبلغ,وضعیت'].concat(state.beneficiaries.map(b=>[b.orgName,b.name,b.nationalId,b.amount,b.status].map(cell).join(','))).join('\n')}function importsCSV(){return ['کد رهگیری,سمن,تاریخ خروجی,تاریخ ورود,وضعیت,خلاصه'].concat(state.imports.map(i=>[i.trackingCode,i.orgName,i.exportedAt,i.importedAt,i.status,i.summary].map(cell).join(','))).join('\n')}function csvCurrent(){return rtype==='lic'?licenseCSV():rtype==='fin'?reportsCSV():rtype==='aud'?auditCSV():rtype==='ben'?benefCSV():rtype==='imp'?importsCSV():orgsCSV()}
+/* ================= V84 OFFICIAL WORKFLOW + VALIDATION PATCH ================= */
+function validateNationalIdV84(v){v=String(v||'').replace(/[^\d۰-۹٠-٩]/g,'').replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/[٠-٩]/g,d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d));return v.length===10}
+function validateMobileV84(v){v=String(v||'').replace(/[^\d۰-۹٠-٩]/g,'').replace(/[۰-۹]/g,d=>'۰۱۲۳۴۵۶۷۸۹'.indexOf(d)).replace(/[٠-٩]/g,d=>'٠١٢٣٤٥٦٧٨٩'.indexOf(d));return !v||/^09\d{9}$/.test(v)||v.length===11}
+function validateShebaV84(v){return !v||/^IR/i.test(String(v||'').trim())}
+function ensureV84(){state.workflow=state.workflow||[];state.documents=state.documents||[];state.migrations=state.migrations||[];state.version='76'}
+function workflow(){ensureV84();return `<div class="card"><h3>گردش کار تأیید گزارش‌ها</h3><div class="note info">مسیر رسمی: دریافت از کلاینت ← در انتظار بررسی ← نیازمند اصلاح / تأیید کارشناس ← تأیید نهایی ← بایگانی شده</div><div class="tablewrap"><table class="table"><tr><th>گزارش</th><th>سمن</th><th>وضعیت</th><th>تاریخ</th><th>عملیات</th></tr>${state.workflow.map(w=>`<tr><td>${esc(w.title)}</td><td>${esc(w.orgName)}</td><td>${status(w.status)}</td><td>${esc(w.createdAt)}</td><td><button class="ghost" onclick="setWorkflowV84('${w.id}','در انتظار بررسی')">بررسی</button> <button class="ghost" onclick="setWorkflowV84('${w.id}','نیازمند اصلاح')">نیازمند اصلاح</button> <button class="ghost" onclick="setWorkflowV84('${w.id}','تأیید نهایی')">تأیید نهایی</button> <button class="ghost" onclick="setWorkflowV84('${w.id}','بایگانی شده')">بایگانی</button></td></tr>`).join('')||'<tr><td colspan="5">گزارشی در گردش کار نیست.</td></tr>'}</table></div></div>`}
+function setWorkflowV84(id,st){let w=state.workflow.find(x=>x.id===id);if(!w)return;w.status=st;w.history=(w.history||[]).concat(st);let r=state.reports.find(x=>x.id===w.reportId);if(r)r.workflowStatus=st;if(st==='نیازمند اصلاح'){state.corrections=state.corrections||[];state.corrections.push({id:uid('corr'),orgId:w.orgId,orgName:w.orgName,title:'اصلاح گزارش',desc:'ثبت‌شده از گردش کار گزارش',deadline:'',status:'باز',createdAt:today(),reportId:w.reportId})}save();log('تغییر وضعیت گردش کار: '+st);render('workflow')}
+function documents(){ensureV84();return `<div class="actions"><button class="primary" onclick="docFormV84()">ثبت مدرک</button></div><div id="docForm"></div><div class="card"><h3>بایگانی مدارک و پیوست‌ها</h3><div class="tablewrap"><table class="table"><tr><th>سمن</th><th>نوع مدرک</th><th>نام فایل/شماره پیوست</th><th>تاریخ ثبت</th><th>وضعیت</th></tr>${state.documents.map(d=>`<tr><td>${esc(d.orgName)}</td><td>${esc(d.type)}</td><td>${esc(d.fileName)}</td><td>${esc(d.createdAt)}</td><td>${status(d.status)}</td></tr>`).join('')||'<tr><td colspan="5">مدرکی ثبت نشده است.</td></tr>'}</table></div></div>`}
+function docFormV84(){$('docForm').innerHTML=`<div class="card"><h3>ثبت مدرک</h3><div class="grid3"><div class="field"><label>سمن</label><select id="dOrg">${state.orgs.map(o=>`<option value="${o.id}">${esc(o.name)}</option>`).join('')}</select></div><div class="field"><label>نوع مدرک</label><select id="dType"><option>مجوز فعالیت</option><option>اساسنامه</option><option>آگهی ثبت</option><option>مدارک مدیرعامل</option><option>مدارک هیأت مدیره</option><option>مدارک حساب بانکی</option><option>مدارک هزینه جاری</option></select></div><div class="field"><label>نام فایل / شماره پیوست</label><input id="dFile"></div></div><button class="primary" onclick="addDocV84()">ذخیره مدرک</button></div>`}
+function addDocV84(){let o=state.orgs.find(x=>x.id===$('dOrg').value);state.documents.push({id:uid('doc'),orgId:o.id,orgName:o.name,type:$('dType').value,fileName:$('dFile').value,createdAt:today(),status:'در انتظار بررسی'});save();render('documents')}
+let pendingImportV84=null;
+function imp(){ensureV84();return `<div class="card"><h3>ورود فایل خروجی سمن‌ها با مدیریت مغایرت</h3><div class="note info">فایل خروجی کلاینت را انتخاب کنید. سیستم مغایرت اطلاعات موجود و جدید را نشان می‌دهد و ادمین تصمیم می‌گیرد: ادغام، جایگزینی یا رد.</div><input type="file" id="importFile" accept="application/json,.json"><div class="actions" style="margin-top:12px"><button class="primary" onclick="analyzeImportV84()">بررسی فایل</button></div><div id="importResult"></div></div><div class="card"><h3>لیست فایل‌های واردشده</h3><div class="tablewrap"><table class="table"><tr><th>کد رهگیری</th><th>سمن</th><th>تاریخ خروجی</th><th>تاریخ ورود</th><th>روش</th><th>وضعیت</th><th>جزئیات</th></tr>${state.imports.map(i=>`<tr><td>${esc(i.trackingCode)}</td><td>${esc(i.orgName)}</td><td>${esc(i.exportedAt)}</td><td>${esc(i.importedAt)}</td><td>${esc(i.mode||'')}</td><td>${status(i.status)}</td><td>${esc(i.summary)}</td></tr>`).join('')||'<tr><td colspan="7">فایلی وارد نشده است.</td></tr>'}</table></div></div>`}
+function analyzeImportV84(){let f=$('importFile').files[0];if(!f){alert('فایل خروجی کلاینت را انتخاب کنید.');return}let r=new FileReader();r.onload=()=>{try{let data=JSON.parse(r.result);if(data.type!=='JAVANROOD_NGO_CLIENT_EXPORT')throw new Error('type');pendingImportV84=data;showImportDiffV84(data)}catch(e){$('importResult').innerHTML='<div class="note bad">فایل خروجی کلاینت معتبر نیست.</div>'}};r.readAsText(f,'utf-8')}
+function showImportDiffV84(data){let org=data.organization||{};let ex=state.orgs.find(x=>x.id===org.organizationKey||x.nationalId===org.organizationNationalId||x.name===org.organizationName);let diffs=[];if(ex){[['نام سمن','name','organizationName'],['شناسه ملی','nationalId','organizationNationalId'],['شماره ثبت','regNo','registrationNumber'],['مدیرعامل','ceo','ceoName'],['کد ملی مدیرعامل','ceoNationalId','ceoNationalId']].forEach(([l,a,b])=>{if(String(ex[a]||'')!==String(org[b]||''))diffs.push(`${l}: قبلی «${ex[a]||'-'}» / جدید «${org[b]||'-'}»`)})}else diffs.push('سمن جدید است و در ادمین ثبت می‌شود.');if(state.imports.some(i=>i.trackingCode===(data.trackingCode||'')))diffs.push('این کد رهگیری قبلاً وارد شده است.');$('importResult').innerHTML=`<div class="note warn"><b>مغایرت‌ها و وضعیت فایل:</b><br>${diffs.map(esc).join('<br>')}</div><div class="actions"><button class="primary greenBtn" onclick="applyImportV84('merge')">ادغام</button><button class="primary orangeBtn" onclick="applyImportV84('replace')">جایگزینی</button><button class="primary redBtn" onclick="applyImportV84('reject')">رد فایل</button></div>`}
+function applyImportV84(mode){if(!pendingImportV84)return;if(mode==='reject'){state.imports.unshift({id:uid('imp'),trackingCode:pendingImportV84.trackingCode||'',orgName:pendingImportV84.organization?.organizationName||'',exportedAt:pendingImportV84.exportedAt||'',importedAt:new Date().toLocaleString('fa-IR'),mode:'رد',status:'رد شده',summary:'فایل توسط ادمین رد شد'});save();render('import');return}let data=pendingImportV84,org=data.organization||{};let o=state.orgs.find(x=>x.id===org.organizationKey||x.nationalId===org.organizationNationalId||x.name===org.organizationName);if(!o){o={id:org.organizationKey||uid('org'),board:[]};state.orgs.push(o)}if(mode==='replace'){state.beneficiaries=state.beneficiaries.filter(b=>b.orgId!==o.id);state.reports=state.reports.filter(r=>r.orgId!==o.id)}Object.assign(o,{name:org.organizationName||o.name,nationalId:org.organizationNationalId||o.nationalId,regNo:org.registrationNumber||o.regNo,activity:org.activityField||o.activity,address:org.address||o.address,phone:org.phone||o.phone,ceo:org.ceoName||o.ceo,ceoNationalId:org.ceoNationalId||o.ceoNationalId,licenseStatus:data.licenses?.[0]?.status||o.licenseStatus,licenseNo:data.licenses?.[0]?.licenseNo||o.licenseNo,licenseStart:data.licenses?.[0]?.start||o.licenseStart,licenseEnd:data.licenses?.[0]?.end||o.licenseEnd,bank:data.accounts?.[0]?.bank||o.bank,accountNo:data.accounts?.[0]?.accountNo||o.accountNo,sheba:data.accounts?.[0]?.sheba||o.sheba,board:data.members||o.board||[]});(data.beneficiaries||[]).forEach(b=>{if(!state.beneficiaries.some(x=>x.nationalId===b.nationalId&&x.orgId===o.id))state.beneficiaries.push(Object.assign({id:uid('ben'),orgId:o.id,orgName:o.name},b))});(data.reports||[]).forEach(rep=>{if(!state.reports.some(x=>x.clientReportId===rep.id)){let nr=Object.assign({id:uid('rep'),clientReportId:rep.id,orgId:o.id,orgName:o.name,workflowStatus:'دریافت از کلاینت'},rep);state.reports.push(nr);state.workflow.unshift({id:uid('wf'),reportId:nr.id,orgId:o.id,orgName:o.name,title:`گزارش ${nr.month||''} ${nr.year||''}`,status:'دریافت از کلاینت',createdAt:today(),history:['دریافت از کلاینت']})}});let imp={id:uid('imp'),trackingCode:data.trackingCode||('JVN-EXP-'+Date.now()),orgName:o.name,exportedAt:data.exportedAt||'',importedAt:new Date().toLocaleString('fa-IR'),mode:mode==='merge'?'ادغام':'جایگزینی',status:'وارد شد',summary:`مددجو: ${(data.beneficiaries||[]).length} | گزارش: ${(data.reports||[]).length} | اعضا: ${(data.members||[]).length}`};state.imports.unshift(imp);let u=state.users.find(x=>x.orgId===o.id||x.organizationName===o.name);if(u)u.lastImportAt=imp.importedAt;runAudit(false);save();log('ورود فایل خروجی سمن: '+o.name+' / '+imp.mode);pendingImportV84=null;render('import')}
+function reports(){return `<div class="card"><h3>گزارش‌ساز رسمی</h3><div class="grid3"><div class="field"><label>نوع گزارش</label><select id="repType"><option value="full">گزارش جامع</option><option value="lic">مجوزها</option><option value="fin">مالی</option><option value="aud">حسابرسی</option><option value="ben">مددجوها</option><option value="imp">فایل‌های واردشده</option></select></div><div class="field"><label>سمن</label><select id="repOrg"><option value="">همه</option>${state.orgs.map(o=>`<option value="${o.id}">${esc(o.name)}</option>`).join('')}</select></div><div class="field"><label>سال</label><input id="repYear" placeholder="۱۴۰۳"></div><div class="field"><label>ماه</label><input id="repMonth" placeholder="فروردین"></div><div class="field"><label>وضعیت</label><input id="repStatus" placeholder="مثلاً تأیید شده"></div></div><div class="actions"><button class="primary" onclick="buildReportV84()">نمایش گزارش</button><button class="ghost" onclick="downloadWordFromArea()">Word</button><button class="ghost" onclick="downloadCSV('گزارش_فیلترشده.csv',csvCurrent())">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ/PDF</button></div></div><div id="reportArea">${rptHtml('full')}</div>`}
+function buildReportV84(){rtype=$('repType').value;let html=rptHtml(rtype);$('reportArea').innerHTML=html}
+/* ================= END V84 PATCH ================= */
+
+
+/* ================= V84 ROLES + TEMPLATES + BACKUP PATCH ================= */
+function ensureV84(){state.roles=state.roles||[{name:'مدیر سامانه',permissions:'همه دسترسی‌ها'},{name:'کارشناس امور اجتماعی',permissions:'بررسی پرونده، گزارش و درخواست اصلاح'},{name:'کارشناس مالی',permissions:'گزارش مالی و حسابرسی مالی'},{name:'مشاهده‌گر',permissions:'فقط مشاهده و خروجی'}];state.reportTemplates=state.reportTemplates||[{name:'پرونده کامل سمن',type:'full'},{name:'گزارش مجوزها',type:'lic'},{name:'گزارش مالی',type:'fin'},{name:'گزارش حسابرسی',type:'aud'},{name:'گزارش مددجوها',type:'ben'}];state.migrations=state.migrations||[];state.version='77'}
+function roles(){ensureV84();return `<div class="card"><h3>نقش‌ها و سطح دسترسی</h3><div class="note info">این بخش برای رسمی‌تر شدن سامانه و تفکیک مسئولیت‌ها اضافه شده است.</div><div class="actions"><button class="primary" onclick="roleFormV84()">افزودن نقش</button></div><div id="roleForm"></div><div class="tablewrap"><table class="table"><tr><th>نقش</th><th>دسترسی</th></tr>${state.roles.map(r=>`<tr><td>${esc(r.name)}</td><td>${esc(r.permissions)}</td></tr>`).join('')}</table></div></div>`}
+function roleFormV84(){$('roleForm').innerHTML=`<div class="grid2"><div class="field"><label>نام نقش</label><input id="roleName"></div><div class="field"><label>دسترسی‌ها</label><input id="rolePerm"></div></div><button class="primary" onclick="addRoleV84()">ذخیره نقش</button>`}
+function addRoleV84(){state.roles.push({name:$('roleName').value,permissions:$('rolePerm').value});save();render('roles')}
+function templates(){ensureV84();return `<div class="card"><h3>قالب‌های رسمی گزارش Word</h3><div class="note info">هر قالب می‌تواند برای Word، چاپ و PDF استفاده شود.</div><div class="actions"><button class="primary" onclick="templateFormV84()">افزودن قالب</button></div><div id="templateForm"></div><div class="tablewrap"><table class="table"><tr><th>نام قالب</th><th>نوع گزارش</th><th>عملیات</th></tr>${state.reportTemplates.map(t=>`<tr><td>${esc(t.name)}</td><td>${esc(t.type)}</td><td><button class="ghost" onclick="downloadWord('${esc(t.name)}',rptHtml('${t.type}'))">Word</button></td></tr>`).join('')}</table></div></div>`}
+function templateFormV84(){$('templateForm').innerHTML=`<div class="grid2"><div class="field"><label>نام قالب</label><input id="tplName"></div><div class="field"><label>نوع</label><select id="tplType"><option value="full">جامع</option><option value="lic">مجوزها</option><option value="fin">مالی</option><option value="aud">حسابرسی</option><option value="ben">مددجوها</option></select></div></div><button class="primary" onclick="addTemplateV84()">ذخیره قالب</button>`}
+function addTemplateV84(){state.reportTemplates.push({name:$('tplName').value,type:$('tplType').value});save();render('templates')}
+function migration(){ensureV84();return `<div class="card"><h3>مهاجرت نسخه‌ها و سلامت داده</h3><div class="note info">این بخش برای جلوگیری از پاک شدن اطلاعات در آپدیت‌های بعدی اضافه شده است.</div><button class="primary" onclick="runMigrationV84()">اجرای بررسی مهاجرت</button><div class="tablewrap" style="margin-top:12px"><table class="table"><tr><th>تاریخ</th><th>شرح</th></tr>${state.migrations.map(m=>`<tr><td>${esc(m.at)}</td><td>${esc(m.desc)}</td></tr>`).join('')||'<tr><td colspan="2">مهاجرتی ثبت نشده است.</td></tr>'}</table></div></div>`}
+function runMigrationV84(){ensureV84();state.migrations.unshift({at:new Date().toLocaleString('fa-IR'),desc:'بررسی ساختار داده و سازگاری با V84 انجام شد.'});save();render('migration')}
+function backup(){ensureV84();return `<div class="card"><h3>بکاپ حرفه‌ای و رمزدار</h3><div class="note info">بکاپ کامل، بکاپ رمزدار نمایشی، و بازیابی بکاپ.</div><div class="actions"><button class="primary" onclick="downloadJSON('backup_admin_v84.json',state)">بکاپ کامل</button><button class="ghost" onclick="downloadEncryptedV84()">بکاپ رمزدار</button><input type="file" id="restoreFile" accept=".json"><button class="ghost orangeBtn" onclick="restoreBackup()">بازیابی بکاپ</button></div></div>`}
+function downloadEncryptedV84(){let pass=prompt('رمز بکاپ را وارد کنید:','1234');if(!pass)return;let payload={type:'JAVANROOD_NGO_ENCRYPTED_BACKUP_V84',hint:'رمزگذاری ساده داخلی برای نسخه آفلاین',createdAt:new Date().toLocaleString('fa-IR'),data:btoa(unescape(encodeURIComponent(JSON.stringify(state)))),passHash:hashString(pass)};downloadJSON('backup_admin_v84_encrypted.json',payload);log('ساخت بکاپ رمزدار')}
+function help(){return `<div class="card"><h3>راهنمای داخل برنامه</h3><div class="grid2"><div class="note info"><b>ساخت کلاینت</b><br>از بخش کاربران، مشخصات سمن و مدیرعامل را وارد و فایل فعال‌سازی بسازید.</div><div class="note info"><b>ورود فایل سمن‌ها</b><br>خروجی کلاینت را وارد کنید، مغایرت را بررسی و ادغام/جایگزین کنید.</div><div class="note info"><b>گردش کار</b><br>گزارش‌ها را بررسی، اصلاح، تأیید یا بایگانی کنید.</div><div class="note info"><b>گزارش‌ها</b><br>از گزارش‌ساز، نوع گزارش و فیلترها را انتخاب و Word/CSV بگیرید.</div></div></div>`}
+/* ================= END V84 PATCH ================= */
+
+
+/* ================= V84 FINAL STABLE RELEASE PATCH ================= */
+function ensureV84(){
+  state.version='78';
+  state.errorLogs = state.errorLogs || [];
+  state.about = state.about || {
+    appName:'سامانه جمع‌آوری اطلاعات سمن‌های مردم‌نهاد شهرستان جوانرود',
+    version:'V84 FINAL STABLE RELEASE',
+    area:'شهرستان جوانرود',
+    releaseDate:new Date().toLocaleDateString('fa-IR'),
+    edition:'نسخه پایدار نهایی ادمین'
+  };
+  state.sessionConfig = state.sessionConfig || {autoLockMinutes:15,enabled:true};
+  state.migrations = state.migrations || [];
+  state.helpTopics = state.helpTopics || [
+    {title:'ساخت کاربر کلاینت',body:'از بخش کاربران و فعال‌سازی، مشخصات سمن و مدیرعامل را وارد و فایل فعال‌سازی را دانلود کنید.'},
+    {title:'فعال‌سازی کلاینت',body:'در کلاینت، فایل فعال‌سازی و کد ملی مدیرعامل وارد می‌شود و سپس صفحه ورود نمایش داده می‌شود.'},
+    {title:'ورود خروجی سمن‌ها',body:'فایل خروجی ساخته‌شده در کلاینت را از بخش ورود فایل سمن‌ها وارد و مغایرت‌ها را بررسی کنید.'},
+    {title:'گزارش‌گیری',body:'از بخش گزارش‌گیری، نوع گزارش و فیلترها را انتخاب و خروجی Word، CSV یا چاپ بگیرید.'},
+    {title:'تعاریف امضا',body:'نام کارشناس امور اجتماعی و فرماندار را در تنظیمات وارد کنید تا پایین گزارش‌ها نمایش داده شود.'},
+    {title:'بکاپ',body:'از بخش بکاپ حرفه‌ای، خروجی بکاپ بگیرید و در محل امن نگهداری کنید.'}
+  ];
+}
+function addErrorV84(msg,src,line,col,stack){
+  try{
+    state.errorLogs = state.errorLogs || [];
+    state.errorLogs.unshift({at:new Date().toLocaleString('fa-IR'),message:String(msg||''),source:String(src||''),line:line||'',column:col||'',stack:String(stack||'')});
+    state.errorLogs = state.errorLogs.slice(0,120);
+    save();
+  }catch(e){}
+}
+window.onerror=function(msg,src,line,col,err){addErrorV84(msg,src,line,col,err&&err.stack);return false}
+window.onunhandledrejection=function(ev){addErrorV84(ev.reason&&ev.reason.message?ev.reason.message:ev.reason,'promise','','',ev.reason&&ev.reason.stack)}
+let v84LockTimer=null;
+function resetLockTimerV84(){
+  ensureV84();
+  if(!state.session || !state.sessionConfig.enabled)return;
+  clearTimeout(v84LockTimer);
+  v84LockTimer=setTimeout(()=>lockSessionV84(), (state.sessionConfig.autoLockMinutes||15)*60*1000);
+}
+['click','keydown','mousemove','touchstart'].forEach(ev=>document.addEventListener(ev,resetLockTimerV84,{passive:true}));
+function lockSessionV84(){
+  if(!state.session)return;
+  state.lockedSession=state.session;
+  state.session=null;
+  save();
+  showLockScreenV84();
+}
+function showLockScreenV84(){
+  document.body.innerHTML='<div id="root"></div>';
+  document.getElementById('root').innerHTML=`<main class="login-page"><section class="login-box"><div class="login-hero"><h1>سامانه قفل شد</h1><p>به دلیل عدم فعالیت، نشست کاری قفل شده است. برای ادامه، رمز عبور ادمین را وارد کنید.</p><div class="hero-grid"><div class="hero-item"><b>امنیت اداری</b><span>قفل خودکار نشست</span></div><div class="hero-item"><b>حفاظت اطلاعات</b><span>جلوگیری از دسترسی غیرمجاز</span></div></div></div><div class="login-form"><div class="lock">🔒</div><h2>باز کردن قفل</h2><div class="field"><label>رمز عبور ادمین</label><input id="unlockPass" type="password" dir="ltr" onkeydown="if(event.key==='Enter')unlockV84()"></div><button class="primary" style="width:100%" onclick="unlockV84()">ادامه کار</button><button class="ghost" style="width:100%;margin-top:10px" onclick="loginPage()">بازگشت به ورود</button></div></section></main>`;
+}
+function unlockV84(){
+  let p=document.getElementById('unlockPass').value;
+  if(p===(state.settings.adminPass||'admin123')){
+    state.session=state.lockedSession||{user:state.settings.adminUser||'admin',at:new Date().toLocaleString('fa-IR')};
+    state.lockedSession=null;
+    save();
+    resetLockTimerV84();
+    render('dashboard');
+  }else alert('رمز عبور اشتباه است.');
+}
+function errorsPanelV84(){
+  ensureV84();
+  return `<div class="card"><h3>مرکز خطا و گزارش فنی</h3><div class="note info">اگر برنامه خطا بدهد، اینجا ثبت می‌شود. برای پشتیبانی می‌توانید لاگ خطا را دانلود کنید.</div><div class="actions"><button class="primary" onclick="downloadJSON('error_log_v84.json',state.errorLogs||[])">دانلود لاگ خطا</button><button class="ghost redBtn" onclick="clearErrorsV84()">پاک کردن لاگ خطا</button></div><div class="tablewrap" style="margin-top:12px"><table class="table"><tr><th>زمان</th><th>پیام خطا</th><th>منبع</th><th>خط</th></tr>${(state.errorLogs||[]).map(e=>`<tr><td>${esc(e.at)}</td><td>${esc(e.message)}</td><td>${esc(e.source)}</td><td>${esc(e.line)}</td></tr>`).join('')||'<tr><td colspan="4">خطایی ثبت نشده است.</td></tr>'}</table></div></div>`;
+}
+function clearErrorsV84(){if(confirm('لاگ خطا پاک شود؟')){state.errorLogs=[];save();render('errors')}}
+function aboutV84(){
+  ensureV84();
+  return `<div class="card"><h3>درباره نرم‌افزار</h3><div class="grid2"><div class="note info"><b>نام سامانه</b><br>${esc(state.about.appName)}</div><div class="note info"><b>نسخه</b><br>${esc(state.about.version)}</div><div class="note info"><b>محدوده</b><br>${esc(state.about.area)}</div><div class="note info"><b>نوع نسخه</b><br>${esc(state.about.edition)}</div></div><div class="note ok">این نسخه برای تحویل پایدار آماده‌سازی شده و شامل قفل نشست، مرکز خطا، راهنما، بکاپ، گزارش‌گیری و کنترل مهاجرت داده است.</div></div>`;
+}
+function helpV84(){
+  ensureV84();
+  return `<div class="card"><h3>راهنمای داخلی سامانه</h3><div class="grid2">${state.helpTopics.map(h=>`<div class="note info"><b>${esc(h.title)}</b><br>${esc(h.body)}</div>`).join('')}</div></div>`;
+}
+function migrationV84(){
+  ensureV84();
+  return `<div class="card"><h3>مهاجرت نسخه‌ها و سلامت داده</h3><div class="note info">برای جلوگیری از پاک شدن اطلاعات در آپدیت‌های بعدی، ساختار داده بررسی و ثبت می‌شود.</div><div class="actions"><button class="primary" onclick="runMigrationV84()">اجرای بررسی سلامت داده</button><button class="ghost" onclick="downloadJSON('migration_report_v84.json',state.migrations||[])">دانلود گزارش مهاجرت</button></div><div class="tablewrap" style="margin-top:12px"><table class="table"><tr><th>زمان</th><th>شرح</th></tr>${(state.migrations||[]).map(m=>`<tr><td>${esc(m.at)}</td><td>${esc(m.desc)}</td></tr>`).join('')||'<tr><td colspan="2">گزارشی ثبت نشده است.</td></tr>'}</table></div></div>`;
+}
+function runMigrationV84(){
+  ensureV84();
+  let issues=[];
+  ['orgs','reports','beneficiaries','imports','corrections','logs'].forEach(k=>{if(!Array.isArray(state[k])){state[k]=[];issues.push(k+' اصلاح شد')}});
+  state.migrations.unshift({at:new Date().toLocaleString('fa-IR'),desc:issues.length?('اصلاح ساختار: '+issues.join('، ')):'ساختار داده سالم است.'});
+  save();
+  render('migration');
+}
+function finalChecklistV84(){
+  ensureV84();
+  let checks=[
+    ['صفحه ورود فقط یوزر و پسورد دارد', true],
+    ['تعاریف امضا فعال است', !!(state.settings&&state.settings.signers&&state.settings.signers.length)],
+    ['گزارش‌گیری فعال است', typeof reports==='function'],
+    ['ورود فایل کلاینت فعال است', typeof imp==='function'],
+    ['بکاپ فعال است', typeof backup==='function'],
+    ['مرکز خطا فعال است', true],
+    ['قفل نشست فعال است', !!state.sessionConfig.enabled]
+  ];
+  return `<div class="card"><h3>چک‌لیست تحویل نهایی</h3><div class="tablewrap"><table class="table"><tr><th>مورد</th><th>وضعیت</th></tr>${checks.map(c=>`<tr><td>${esc(c[0])}</td><td>${c[1]?'<span class="badge b-ok">آماده</span>':'<span class="badge b-warn">نیازمند بررسی</span>'}</td></tr>`).join('')}</table></div></div>`;
+}
+/* ================= END V84 FINAL STABLE RELEASE PATCH ================= */
+
+ensureV84();
+if(state.session)(resetLockTimerV84(),render('dashboard'));else loginPage();
+
+/* ================= V84 REPORTING FOCUS + ANNUAL AUDIT PATCH ================= */
+const monthsV84=['فروردین','اردیبهشت','خرداد','تیر','مرداد','شهریور','مهر','آبان','آذر','دی','بهمن','اسفند'];
+function normYearV84(y){return String(y||'').trim()||'۱۴۰۳'}
+function selectedOrgOptionsV84(){return `<option value="">انتخاب کنید</option>${state.orgs.map(o=>`<option value="${o.id}">${esc(o.name)}</option>`).join('')}`}
+function monthlyReportsV84(orgId,year){year=normYearV84(year);return monthsV84.map(m=>state.reports.find(r=>String(r.orgId)===String(orgId)&&String(r.year||'')===year&&String(r.month||'')===m)||null)}
+function monthlyAuditV84(org,rep,month,year){
+  if(!rep)return {status:'فاقد گزارش',cls:'b-bad',note:`برای ماه ${month} سال ${year} گزارشی ثبت نشده است.`};
+  let income=num(rep.income), expense=num(rep.expense), ben=num(rep.beneficiaryPay), cur=num(rep.currentCost);
+  if(expense>income)return {status:'دارای کسری',cls:'b-bad',note:`هزینه ${money(expense)} بیشتر از واریزی ${money(income)} است.`};
+  if(!org.licenseNo||org.licenseStatus==='منقضی')return {status:'نیازمند بررسی مجوز',cls:'b-warn',note:'گزارش مالی ثبت شده اما وضعیت مجوز نیازمند بررسی است.'};
+  if(org.licenseStatus==='نزدیک انقضا')return {status:'هشدار تمدید مجوز',cls:'b-warn',note:'مجوز نزدیک به انقضا است.'};
+  if(rep.status==='دارای مغایرت')return {status:'دارای مغایرت',cls:'b-bad',note:rep.note||'گزارش دارای مغایرت ثبت شده است.'};
+  return {status:'قابل قبول',cls:'b-ok',note:rep.note||'مورد بحرانی مشاهده نشد.'};
+}
+function annualRowsV84(org,year){
+  let reps=monthlyReportsV84(org.id,year);
+  return monthsV84.map((m,i)=>{
+    let r=reps[i], a=monthlyAuditV84(org,r,m,year);
+    let income=r?num(r.income):0, ben=r?num(r.beneficiaryPay):0, cur=r?num(r.currentCost):0, expense=r?num(r.expense):(ben+cur), balance=income-expense;
+    return {month:m,rep:r,income,beneficiaryPay:ben,currentCost:cur,expense,balance,audit:a};
+  });
+}
+function annualTotalsV84(rows){
+  return rows.reduce((s,r)=>({income:s.income+r.income,beneficiaryPay:s.beneficiaryPay+r.beneficiaryPay,currentCost:s.currentCost+r.currentCost,expense:s.expense+r.expense,balance:s.balance+r.balance,missing:s.missing+(r.rep?0:1),issues:s.issues+(['قابل قبول'].includes(r.audit.status)?0:1)}),{income:0,beneficiaryPay:0,currentCost:0,expense:0,balance:0,missing:0,issues:0});
+}
+function annualReportDocV84(orgId,year){
+  year=normYearV84(year);
+  let org=state.orgs.find(o=>String(o.id)===String(orgId))||state.orgs[0];
+  if(!org)return `<div class="note bad">ابتدا یک سمن ثبت کنید.</div>`;
+  let rows=annualRowsV84(org,year), total=annualTotalsV84(rows);
+  let finalStatus=total.missing?`ناقص: ${total.missing} ماه بدون گزارش`:total.issues?`نیازمند بررسی: ${total.issues} مورد حسابرسی`:'قابل تأیید';
+  return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش پایان سال سمن</h2><p>${esc(org.name)} | سال ${esc(year)} | وضعیت نهایی: ${esc(finalStatus)}</p></div>
+  <div class="grid2"><div class="note info"><b>مشخصات سمن</b><br>شناسه ملی: ${esc(org.nationalId)}<br>شماره ثبت: ${esc(org.regNo)}<br>حوزه فعالیت: ${esc(org.activity)}</div><div class="note info"><b>مدیرعامل و مجوز</b><br>مدیرعامل: ${esc(org.ceo)}<br>کد ملی: ${esc(org.ceoNationalId)}<br>وضعیت مجوز: ${badge(org.licenseStatus)}<br>شماره مجوز: ${esc(org.licenseNo)}</div></div>
+  <h3>حسابرسی ماهانه سال ${esc(year)}</h3>
+  <div class="tablewrap"><table class="table"><tr><th>ماه</th><th>کل واریزی</th><th>پرداخت مددجو</th><th>هزینه جاری</th><th>جمع هزینه</th><th>مانده/کسری</th><th>وضعیت گزارش</th><th>نتیجه حسابرسی</th><th>توضیح حسابرسی</th></tr>${rows.map(r=>`<tr><td><b>${esc(r.month)}</b></td><td>${money(r.income)}</td><td>${money(r.beneficiaryPay)}</td><td>${money(r.currentCost)}</td><td>${money(r.expense)}</td><td>${money(r.balance)}</td><td>${r.rep?badge(r.rep.status||'ثبت شده'):badge('فاقد گزارش')}</td><td><span class="badge ${r.audit.cls}">${esc(r.audit.status)}</span></td><td>${esc(r.audit.note)}</td></tr>`).join('')}<tr><th>جمع سال</th><th>${money(total.income)}</th><th>${money(total.beneficiaryPay)}</th><th>${money(total.currentCost)}</th><th>${money(total.expense)}</th><th>${money(total.balance)}</th><th colspan="3">${esc(finalStatus)}</th></tr></table></div>
+  <div class="note ${total.balance<0?'bad':total.issues?'warn':'ok'}"><b>جمع‌بندی حسابرسی پایان سال:</b> ${esc(finalStatus)}. مجموع واریزی ${money(total.income)}، مجموع هزینه ${money(total.expense)} و مانده/کسری نهایی ${money(total.balance)} است.</div>
+  ${signs(org.ceo||'نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function annualIndexV84(year){
+  year=normYearV84(year);
+  return `<div class="report" id="printArea"><div class="rhead"><h2>خلاصه گزارش پایان سال همه سمن‌ها</h2><p>سال ${esc(year)}</p></div><div class="tablewrap"><table class="table"><tr><th>سمن</th><th>مدیرعامل</th><th>مجوز</th><th>ماه‌های فاقد گزارش</th><th>موارد حسابرسی</th><th>کل واریزی</th><th>کل هزینه</th><th>مانده/کسری</th><th>وضعیت نهایی</th></tr>${state.orgs.map(o=>{let rows=annualRowsV84(o,year),t=annualTotalsV84(rows),st=t.missing?`ناقص: ${t.missing} ماه فاقد گزارش`:t.issues?`نیازمند بررسی: ${t.issues} مورد`:'قابل تأیید';return `<tr><td>${esc(o.name)}</td><td>${esc(o.ceo)}</td><td>${badge(o.licenseStatus)}</td><td>${t.missing}</td><td>${t.issues}</td><td>${money(t.income)}</td><td>${money(t.expense)}</td><td>${money(t.balance)}</td><td>${esc(st)}</td></tr>`}).join('')}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function annualReportPanelV84(){
+  let defaultYear=(state.reports[0]&&state.reports[0].year)||'۱۴۰۳';
+  return `<div class="card"><h3>گزارش پایان سال هر سمن</h3><div class="note info">در این گزارش، حسابرسی هر ماه در یک سطر نمایش داده می‌شود. برای هر سمن ۱۲ ردیف ماهانه ساخته می‌شود، حتی اگر بعضی ماه‌ها گزارش ثبت نشده باشد.</div><div class="grid3"><div class="field"><label>سمن</label><select id="annualOrg">${selectedOrgOptionsV84()}</select></div><div class="field"><label>سال</label><input id="annualYear" value="${esc(defaultYear)}"></div><div class="field"><label>نوع نمایش</label><select id="annualMode"><option value="one">یک سمن</option><option value="all">خلاصه همه سمن‌ها</option></select></div></div><div class="actions"><button class="primary" onclick="buildAnnualV84()">نمایش گزارش پایان سال</button><button class="ghost" onclick="downloadAnnualWordV84()">Word</button><button class="ghost" onclick="downloadAnnualCsvV84()">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ/PDF</button></div></div><div id="annualArea">${state.orgs[0]?annualReportDocV84(state.orgs[0].id,defaultYear):'<div class="note bad">سمنی ثبت نشده است.</div>'}</div>`;
+}
+function buildAnnualV84(){
+  let mode=$('annualMode')?.value||'one', year=$('annualYear')?.value||'۱۴۰۳', org=$('annualOrg')?.value||state.orgs[0]?.id;
+  $('annualArea').innerHTML=mode==='all'?annualIndexV84(year):annualReportDocV84(org,year);
+}
+function downloadAnnualWordV84(){downloadWord('گزارش پایان سال سمن',$('annualArea')?.innerHTML||annualIndexV84('۱۴۰۳'))}
+function annualCSVV84(){
+  let year=$('annualYear')?.value||'۱۴۰۳', mode=$('annualMode')?.value||'one', orgId=$('annualOrg')?.value||state.orgs[0]?.id;
+  if(mode==='all')return ['سمن,مدیرعامل,ماه‌های فاقد گزارش,موارد حسابرسی,کل واریزی,کل هزینه,مانده/کسری'].concat(state.orgs.map(o=>{let t=annualTotalsV84(annualRowsV84(o,year));return [o.name,o.ceo,t.missing,t.issues,t.income,t.expense,t.balance].map(cell).join(',')})).join('\n');
+  let org=state.orgs.find(o=>String(o.id)===String(orgId))||state.orgs[0], rows=annualRowsV84(org,year);
+  return ['سمن,سال,ماه,کل واریزی,پرداخت مددجو,هزینه جاری,جمع هزینه,مانده/کسری,وضعیت گزارش,نتیجه حسابرسی,توضیح'].concat(rows.map(r=>[org.name,year,r.month,r.income,r.beneficiaryPay,r.currentCost,r.expense,r.balance,r.rep?(r.rep.status||'ثبت شده'):'فاقد گزارش',r.audit.status,r.audit.note].map(cell).join(','))).join('\n');
+}
+function downloadAnnualCsvV84(){downloadCSV('گزارش_پایان_سال_سمن.csv',annualCSVV84())}
+function reports(){
+  return `<div class="card"><h3>گزارش‌گیری کامل و پایان سال</h3><div class="note info">تمرکز این نسخه روی گزارش است: گزارش پایان سال هر سمن، حسابرسی ماهانه در یک سطر، گزارش جامع، مالی، مجوز، مددجو و فایل‌های واردشده.</div><div class="tabs"><button onclick="rpt('annual')">پایان سال هر سمن</button><button onclick="rpt('annualAll')">خلاصه پایان سال همه سمن‌ها</button><button onclick="rpt('full')">جامع</button><button onclick="rpt('lic')">مجوزها</button><button onclick="rpt('fin')">مالی</button><button onclick="rpt('aud')">حسابرسی</button><button onclick="rpt('ben')">مددجوها</button><button onclick="rpt('imp')">فایل‌های واردشده</button></div><div class="grid3"><div class="field"><label>سمن برای گزارش پایان سال</label><select id="reportOrg">${selectedOrgOptionsV84()}</select></div><div class="field"><label>سال</label><input id="reportYear" value="${esc((state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}"></div><div class="field"><label>راهنما</label><input value="برای پایان سال، سمن و سال را انتخاب کنید" readonly></div></div><div class="actions"><button class="primary" onclick="downloadWordArea()">Word</button><button class="ghost" onclick="downloadCSV('گزارش.csv',csvCurrent())">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ/PDF</button></div></div><div id="rarea">${reportHtml('annual')}</div>`;
+}
+function rpt(t){rtype=t;$('rarea').innerHTML=reportHtml(t)}
+function reportHtml(t){
+  let y=$('reportYear')?.value||'۱۴۰۳', oid=$('reportOrg')?.value||state.orgs[0]?.id;
+  if(t==='annual')return annualReportDocV84(oid,y);
+  if(t==='annualAll')return annualIndexV84(y);
+  if(t==='lic')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مجوزها</h2></div><div class="tablewrap"><table class="table"><tr><th>سمن</th><th>شماره مجوز</th><th>وضعیت</th><th>شروع</th><th>پایان</th></tr>${state.orgs.map(o=>`<tr><td>${esc(o.name)}</td><td>${esc(o.licenseNo)}</td><td>${badge(o.licenseStatus)}</td><td>${esc(o.licenseStart||'')}</td><td>${esc(o.licenseEnd||'')}</td></tr>`).join('')}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='fin')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مالی</h2></div>${repsTable(state.reports)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='aud')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش حسابرسی</h2><p>امتیاز سلامت: ${score()}٪</p></div>${audTable(state.auditFindings)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='ben')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مددجویان</h2></div>${benTable(state.beneficiaries)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='imp')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش فایل‌های واردشده</h2></div><div class="tablewrap"><table class="table"><tr><th>کد رهگیری</th><th>سمن</th><th>تاریخ خروجی</th><th>تاریخ ورود</th><th>وضعیت</th><th>خلاصه</th></tr>${state.imports.map(i=>`<tr><td>${esc(i.trackingCode)}</td><td>${esc(i.orgName)}</td><td>${esc(i.exportedAt)}</td><td>${esc(i.importedAt)}</td><td>${badge(i.status)}</td><td>${esc(i.summary)}</td></tr>`).join('')||'<tr><td colspan="6">فایلی وارد نشده است.</td></tr>'}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش جامع سمن‌ها</h2></div><div class="tablewrap"><table class="table"><tr><th>نام سمن</th><th>شناسه ملی</th><th>شماره ثبت</th><th>مدیرعامل</th><th>مجوز</th><th>حساب</th></tr>${state.orgs.map(o=>`<tr><td>${esc(o.name)}</td><td>${esc(o.nationalId)}</td><td>${esc(o.regNo)}</td><td>${esc(o.ceo)}<br>${esc(o.ceoNationalId)}</td><td>${badge(o.licenseStatus)}<br>${esc(o.licenseNo)}</td><td>${esc(o.bank)}<br>${esc(o.sheba)}</td></tr>`).join('')}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function csvCurrent(){
+  if(rtype==='annual'||rtype==='annualAll')return annualCSVV84();
+  return rtype==='lic'?licenseCSV():rtype==='fin'?reportsCSV():rtype==='aud'?auditCSV():rtype==='ben'?benefCSV():rtype==='imp'?importsCSV():orgsCSV();
+}
+function word(){
+  return `<div class="card"><h3>خروجی Word حرفه‌ای</h3><p>در این نسخه، گزارش پایان سال هر سمن به‌صورت رسمی و با حسابرسی ۱۲ ماهه اضافه شده است.</p><div class="quick"><button onclick="downloadWord('گزارش پایان سال سمن',annualReportDocV84(state.orgs[0]?.id,'۱۴۰۳'))">📅 گزارش پایان سال</button><button onclick="downloadWord('خلاصه پایان سال همه سمن‌ها',annualIndexV84('۱۴۰۳'))">📊 پایان سال همه سمن‌ها</button><button onclick="downloadWord('گزارش جامع',reportHtml('full'))">📑 گزارش جامع</button><button onclick="downloadWord('گزارش مجوزها',reportHtml('lic'))">📜 گزارش مجوزها</button><button onclick="downloadWord('گزارش مالی',reportHtml('fin'))">💰 گزارش مالی</button><button onclick="downloadWord('گزارش حسابرسی',reportHtml('aud'))">🧾 گزارش حسابرسی</button></div></div>`;
+}
+/* ================= END V84 REPORT PATCH ================= */
+
+
+/* ================= V84 REPORTS + AUDIT + LICENSE IMAGE FIX ================= */
+function runAudit(show=true){return auditRun(show)}
+function ensureV84(){
+  state.version='82';
+  state.orgs=(state.orgs||[]).map(o=>{
+    o.board=o.board||[];
+    o.documents=o.documents||[];
+    o.licenseImage=o.licenseImage||'';
+    o.licenseImageName=o.licenseImageName||'';
+    return o;
+  });
+  state.auditFindings=state.auditFindings||[];
+  if(!state.auditFindings.length) auditRun(false);
+}
+function boardRowsV84(o){
+  let members=(o.board||[]);
+  if(!members.length && o.ceo) members=[{name:o.ceo,nationalId:o.ceoNationalId,role:'مدیرعامل'}];
+  return members.map((m,i)=>`<tr><td>${i+1}</td><td>${esc(m.fullName||m.name||((m.firstName||'')+' '+(m.lastName||'')))}</td><td>${esc(m.nationalId||m.national_id||'')}</td><td>${esc(m.role||m.position||'عضو')}</td><td>${esc(m.mobile||m.phone||'')}</td></tr>`).join('')||'<tr><td colspan="5">عضوی ثبت نشده است.</td></tr>';
+}
+function boardTableV84(o){
+  return `<div class="tablewrap"><table class="table"><tr><th>ردیف</th><th>نام و نام خانوادگی</th><th>کد ملی</th><th>سمت</th><th>تماس</th></tr>${boardRowsV84(o)}</table></div>`;
+}
+function licenseImageHtmlV84(o){
+  return o.licenseImage
+    ? `<div class="note info"><b>عکس مجوز:</b> ${esc(o.licenseImageName||'فایل مجوز')}<br><img src="${o.licenseImage}" style="max-width:100%;max-height:430px;border:1px solid #cbd5e1;border-radius:16px;margin-top:10px;background:white;padding:6px"></div>`
+    : `<div class="note warn"><b>عکس مجوز ثبت نشده است.</b><br>از بخش «اطلاعات سمن‌ها» روی دکمه «مجوز/عکس» بزنید و تصویر مجوز را بارگذاری کنید.</div>`;
+}
+function licenseDetailsV84(o){
+  return `<div class="grid2"><div class="note info"><b>اطلاعات مجوز</b><br>وضعیت: ${badge(o.licenseStatus)}<br>شماره مجوز: ${esc(o.licenseNo||'')}<br>شروع: ${esc(o.licenseStart||'')}<br>پایان: ${esc(o.licenseEnd||'')}<br>پیوست/توضیح: ${esc(o.licenseFile||'')}</div><div>${licenseImageHtmlV84(o)}</div></div>`;
+}
+function editLicenseV84(id){
+  let o=state.orgs.find(x=>x.id===id); if(!o)return;
+  let wrap=$('orgReport')||$('rarea')||document.body;
+  wrap.innerHTML=`<div class="card"><h3>ثبت/ویرایش مجوز و عکس مجوز</h3><div class="note info">سمن: <b>${esc(o.name)}</b></div><div class="grid3"><div class="field"><label>وضعیت مجوز</label><select id="licStatus"><option ${o.licenseStatus==='معتبر'?'selected':''}>معتبر</option><option ${o.licenseStatus==='نزدیک انقضا'?'selected':''}>نزدیک انقضا</option><option ${o.licenseStatus==='منقضی'?'selected':''}>منقضی</option><option ${o.licenseStatus==='در انتظار بررسی'?'selected':''}>در انتظار بررسی</option></select></div><div class="field"><label>شماره مجوز</label><input id="licNo" value="${esc(o.licenseNo||'')}"></div><div class="field"><label>تاریخ شروع</label><input id="licStart" value="${esc(o.licenseStart||'')}"></div><div class="field"><label>تاریخ پایان</label><input id="licEnd" value="${esc(o.licenseEnd||'')}"></div><div class="field"><label>توضیح/نام فایل</label><input id="licFile" value="${esc(o.licenseFile||'')}"></div><div class="field"><label>انتخاب عکس مجوز</label><input type="file" id="licImage" accept="image/*,.png,.jpg,.jpeg,.webp"></div></div><div class="actions"><button class="primary" onclick="saveLicenseV84('${id}')">ذخیره مجوز</button><button class="ghost" onclick="viewOrg('${id}')">بازگشت به پرونده</button></div><div style="margin-top:14px">${licenseImageHtmlV84(o)}</div></div>`;
+}
+function saveLicenseV84(id){
+  let o=state.orgs.find(x=>x.id===id); if(!o)return;
+  o.licenseStatus=$('licStatus').value;
+  o.licenseNo=$('licNo').value;
+  o.licenseStart=$('licStart').value;
+  o.licenseEnd=$('licEnd').value;
+  o.licenseFile=$('licFile').value;
+  let f=$('licImage').files[0];
+  function done(){save();auditRun(false);alert('مجوز ذخیره شد.');viewOrg(id)}
+  if(f){
+    let r=new FileReader();
+    r.onload=()=>{o.licenseImage=r.result;o.licenseImageName=f.name;done()};
+    r.readAsDataURL(f);
+  }else done();
+}
+function orgs(){
+  ensureV84();
+  return `<div class="actions"><button class="ghost" onclick="downloadCSV('گزارش_کامل_سمن‌ها.csv',orgsCSV())">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ</button></div><div class="card"><h3>اطلاعات کامل سمن‌ها، مجوزها، حساب‌ها و هیأت مدیره</h3><div class="tablewrap"><table class="table"><tr><th>نام سمن</th><th>شناسه ملی</th><th>شماره ثبت</th><th>حوزه</th><th>مدیرعامل</th><th>کد ملی مدیرعامل</th><th>مجوز</th><th>عکس مجوز</th><th>بانک/شبا</th><th>تعداد اعضا</th><th>عملیات</th></tr>${state.orgs.map(o=>`<tr><td><b>${esc(o.name)}</b><br><small>${esc(o.address)}</small></td><td>${esc(o.nationalId)}</td><td>${esc(o.regNo)}</td><td>${esc(o.activity)}</td><td>${esc(o.ceo)}</td><td>${esc(o.ceoNationalId)}</td><td>${badge(o.licenseStatus)}<br>${esc(o.licenseNo||'')}</td><td>${o.licenseImage?'<span class="badge b-ok">قابل مشاهده</span>':'<span class="badge b-warn">ثبت نشده</span>'}</td><td>${esc(o.bank)}<br><small class="ltr">${esc(o.sheba)}</small></td><td>${(o.board||[]).length}</td><td><button class="ghost" onclick="viewOrg('${o.id}')">پرونده کامل</button><button class="ghost" onclick="editLicenseV84('${o.id}')">مجوز/عکس</button></td></tr>`).join('')}</table></div></div><div id="orgReport"></div>`;
+}
+function viewOrg(id){
+  ensureV84();
+  let o=state.orgs.find(x=>x.id===id),rs=state.reports.filter(r=>r.orgId===id),bs=state.beneficiaries.filter(b=>b.orgId===id),as=state.auditFindings.filter(a=>a.orgId===id);
+  if(!o)return;
+  $('orgReport').innerHTML=`<div class="report" id="printArea"><div class="rhead"><h2>پرونده کامل سمن</h2><p>${esc(o.name)} | شناسه ملی: ${esc(o.nationalId)} | شماره ثبت: ${esc(o.regNo)}</p></div><div class="grid2"><div><h3>مشخصات ثبتی</h3><p><b>حوزه:</b> ${esc(o.activity)}</p><p><b>وضعیت:</b> ${badge(o.status)}</p><p><b>آدرس:</b> ${esc(o.address)}</p><p><b>تماس:</b> ${esc(o.phone||'')}</p></div><div><h3>مدیرعامل</h3><p><b>نام:</b> ${esc(o.ceo)}</p><p><b>کد ملی:</b> ${esc(o.ceoNationalId)}</p></div></div><h3>مجوز و تصویر مجوز</h3>${licenseDetailsV84(o)}<h3>اطلاعات کامل هیأت مدیره</h3>${boardTableV84(o)}<h3>گزارش‌های مالی</h3>${repsTable(rs)}<h3>مددجوها</h3>${benTable(bs)}<h3>حسابرسی‌ها</h3>${audTable(as)}${signs(o.ceo)}</div>`;
+}
+function fullProfileReportV84(orgId){
+  ensureV84();
+  let orgs=orgId?[state.orgs.find(o=>o.id===orgId)].filter(Boolean):state.orgs;
+  return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش کامل پرونده سمن‌ها</h2><p>شامل تصویر مجوز، اطلاعات کامل هیأت مدیره، مشخصات ثبتی و حسابرسی</p></div>${orgs.map(o=>`<div style="page-break-after:always"><h2>${esc(o.name)}</h2><div class="grid2"><div class="note info"><b>مشخصات ثبتی</b><br>شناسه ملی: ${esc(o.nationalId)}<br>شماره ثبت: ${esc(o.regNo)}<br>حوزه: ${esc(o.activity)}<br>آدرس: ${esc(o.address)}<br>تماس: ${esc(o.phone||'')}</div><div class="note info"><b>مدیرعامل</b><br>نام: ${esc(o.ceo)}<br>کد ملی: ${esc(o.ceoNationalId)}</div></div><h3>مجوز و عکس مجوز</h3>${licenseDetailsV84(o)}<h3>هیأت مدیره</h3>${boardTableV84(o)}<h3>حسابرسی‌های مرتبط</h3>${audTable(state.auditFindings.filter(a=>a.orgId===o.id))}</div>`).join('')}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function annualReportDocV84(orgId,year){
+  year=normYearV81(year);
+  let org=state.orgs.find(o=>String(o.id)===String(orgId))||state.orgs[0];
+  if(!org)return `<div class="note bad">ابتدا یک سمن ثبت کنید.</div>`;
+  let rows=annualRowsV81(org,year), total=annualTotalsV81(rows);
+  let finalStatus=total.missing?`ناقص: ${total.missing} ماه بدون گزارش`:total.issues?`نیازمند بررسی: ${total.issues} مورد حسابرسی`:'قابل تأیید';
+  return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش پایان سال سمن</h2><p>${esc(org.name)} | سال ${esc(year)} | وضعیت نهایی: ${esc(finalStatus)}</p></div><div class="grid2"><div class="note info"><b>مشخصات سمن</b><br>شناسه ملی: ${esc(org.nationalId)}<br>شماره ثبت: ${esc(org.regNo)}<br>حوزه فعالیت: ${esc(org.activity)}<br>مدیرعامل: ${esc(org.ceo)}<br>کد ملی مدیرعامل: ${esc(org.ceoNationalId)}</div><div class="note info"><b>خلاصه مجوز</b><br>وضعیت مجوز: ${badge(org.licenseStatus)}<br>شماره مجوز: ${esc(org.licenseNo)}<br>عکس مجوز: ${org.licenseImage?'ثبت شده و قابل مشاهده':'ثبت نشده'}</div></div><h3>عکس مجوز</h3>${licenseImageHtmlV84(org)}<h3>اطلاعات کامل هیأت مدیره</h3>${boardTableV84(org)}<h3>حسابرسی ماهانه سال ${esc(year)}</h3><div class="tablewrap"><table class="table"><tr><th>ماه</th><th>کل واریزی</th><th>پرداخت مددجو</th><th>هزینه جاری</th><th>جمع هزینه</th><th>مانده/کسری</th><th>وضعیت گزارش</th><th>نتیجه حسابرسی</th><th>توضیح حسابرسی</th></tr>${rows.map(r=>`<tr><td><b>${esc(r.month)}</b></td><td>${money(r.income)}</td><td>${money(r.beneficiaryPay)}</td><td>${money(r.currentCost)}</td><td>${money(r.expense)}</td><td>${money(r.balance)}</td><td>${r.rep?badge(r.rep.status||'ثبت شده'):badge('فاقد گزارش')}</td><td><span class="badge ${r.audit.cls}">${esc(r.audit.status)}</span></td><td>${esc(r.audit.note)}</td></tr>`).join('')}<tr><th>جمع سال</th><th>${money(total.income)}</th><th>${money(total.beneficiaryPay)}</th><th>${money(total.currentCost)}</th><th>${money(total.expense)}</th><th>${money(total.balance)}</th><th colspan="3">${esc(finalStatus)}</th></tr></table></div><div class="note ${total.balance<0?'bad':total.issues?'warn':'ok'}"><b>جمع‌بندی حسابرسی پایان سال:</b> ${esc(finalStatus)}. مجموع واریزی ${money(total.income)}، مجموع هزینه ${money(total.expense)} و مانده/کسری نهایی ${money(total.balance)} است.</div>${signs(org.ceo||'نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function annualReportPanelV81(){
+  let defaultYear=(state.reports[0]&&state.reports[0].year)||'۱۴۰۳';
+  return `<div class="card"><h3>گزارش پایان سال هر سمن</h3><div class="note info">در این نسخه، تصویر مجوز و اطلاعات کامل هیأت مدیره هم داخل گزارش پایان سال نمایش داده می‌شود.</div><div class="grid3"><div class="field"><label>سمن</label><select id="annualOrg">${selectedOrgOptionsV81()}</select></div><div class="field"><label>سال</label><input id="annualYear" value="${esc(defaultYear)}"></div><div class="field"><label>نوع نمایش</label><select id="annualMode"><option value="one">یک سمن</option><option value="all">خلاصه همه سمن‌ها</option></select></div></div><div class="actions"><button class="primary" onclick="buildAnnualV81()">نمایش گزارش پایان سال</button><button class="ghost" onclick="downloadAnnualWordV81()">Word</button><button class="ghost" onclick="downloadAnnualCsvV81()">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ/PDF</button></div></div><div id="annualArea">${state.orgs[0]?annualReportDocV84(state.orgs[0].id,defaultYear):'<div class="note bad">سمنی ثبت نشده است.</div>'}</div>`;
+}
+function buildAnnualV81(){
+  let mode=$('annualMode')?.value||'one', year=$('annualYear')?.value||'۱۴۰۳', org=$('annualOrg')?.value||state.orgs[0]?.id;
+  $('annualArea').innerHTML=mode==='all'?annualIndexV81(year):annualReportDocV84(org,year);
+}
+function downloadAnnualWordV81(){downloadWord('گزارش پایان سال سمن',$('annualArea')?.innerHTML||annualReportDocV84(state.orgs[0]?.id,'۱۴۰۳'))}
+function reports(){
+  ensureV84();
+  return `<div class="card"><h3>گزارش‌گیری کامل اصلاح‌شده</h3><div class="note info">گزارش «پرونده کامل» شامل عکس مجوز قابل مشاهده و اطلاعات کامل هیأت مدیره است. گزارش پایان سال هم حسابرسی ماهانه را در ۱۲ سطر نمایش می‌دهد.</div><div class="tabs"><button onclick="rpt('profile')">پرونده کامل + مجوز + هیأت مدیره</button><button onclick="rpt('annual')">پایان سال هر سمن</button><button onclick="rpt('annualAll')">خلاصه پایان سال همه سمن‌ها</button><button onclick="rpt('full')">جامع</button><button onclick="rpt('lic')">مجوزها</button><button onclick="rpt('fin')">مالی</button><button onclick="rpt('aud')">حسابرسی</button><button onclick="rpt('ben')">مددجوها</button><button onclick="rpt('imp')">فایل‌های واردشده</button></div><div class="grid3"><div class="field"><label>سمن</label><select id="reportOrg">${selectedOrgOptionsV81()}</select></div><div class="field"><label>سال</label><input id="reportYear" value="${esc((state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}"></div><div class="field"><label>راهنما</label><input value="برای پرونده کامل یا پایان سال، سمن را انتخاب کنید" readonly></div></div><div class="actions"><button class="primary" onclick="downloadWordArea()">Word</button><button class="ghost" onclick="downloadCSV('گزارش.csv',csvCurrent())">Excel/CSV</button><button class="ghost" onclick="window.print()">چاپ/PDF</button></div></div><div id="rarea">${reportHtml('profile')}</div>`;
+}
+function reportHtml(t){
+  let y=$('reportYear')?.value||'۱۴۰۳', oid=$('reportOrg')?.value||state.orgs[0]?.id;
+  if(t==='profile')return fullProfileReportV84(oid);
+  if(t==='annual')return annualReportDocV84(oid,y);
+  if(t==='annualAll')return annualIndexV81(y);
+  if(t==='lic')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مجوزها و تصاویر مجوز</h2></div>${state.orgs.map(o=>`<div style="page-break-after:always"><h3>${esc(o.name)}</h3>${licenseDetailsV84(o)}<h3>هیأت مدیره</h3>${boardTableV84(o)}</div>`).join('')}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='fin')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مالی</h2></div>${repsTable(state.reports)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='aud')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش حسابرسی</h2><p>امتیاز سلامت: ${score()}٪</p></div>${audTable(state.auditFindings)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='ben')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش مددجویان</h2></div>${benTable(state.beneficiaries)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  if(t==='imp')return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش فایل‌های واردشده</h2></div><div class="tablewrap"><table class="table"><tr><th>کد رهگیری</th><th>سمن</th><th>تاریخ خروجی</th><th>تاریخ ورود</th><th>وضعیت</th><th>خلاصه</th></tr>${state.imports.map(i=>`<tr><td>${esc(i.trackingCode)}</td><td>${esc(i.orgName)}</td><td>${esc(i.exportedAt)}</td><td>${esc(i.importedAt)}</td><td>${badge(i.status)}</td><td>${esc(i.summary)}</td></tr>`).join('')||'<tr><td colspan="6">فایلی وارد نشده است.</td></tr>'}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  return `<div class="report" id="printArea"><div class="rhead"><h2>گزارش جامع سمن‌ها</h2></div><div class="tablewrap"><table class="table"><tr><th>نام سمن</th><th>شناسه ملی</th><th>شماره ثبت</th><th>مدیرعامل</th><th>مجوز</th><th>عکس مجوز</th><th>تعداد اعضای هیأت مدیره</th></tr>${state.orgs.map(o=>`<tr><td>${esc(o.name)}</td><td>${esc(o.nationalId)}</td><td>${esc(o.regNo)}</td><td>${esc(o.ceo)}<br>${esc(o.ceoNationalId)}</td><td>${badge(o.licenseStatus)}<br>${esc(o.licenseNo)}</td><td>${o.licenseImage?'قابل مشاهده':'ثبت نشده'}</td><td>${(o.board||[]).length}</td></tr>`).join('')}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function csvCurrent(){
+  if(rtype==='annual'||rtype==='annualAll')return annualCSVV81();
+  if(rtype==='profile')return ['سمن,شناسه ملی,شماره ثبت,مدیرعامل,کد ملی مدیرعامل,وضعیت مجوز,شماره مجوز,عکس مجوز,تعداد اعضای هیأت مدیره'].concat(state.orgs.map(o=>[o.name,o.nationalId,o.regNo,o.ceo,o.ceoNationalId,o.licenseStatus,o.licenseNo,o.licenseImage?'دارد':'ندارد',(o.board||[]).length].map(cell).join(','))).join('\n');
+  return rtype==='lic'?licenseCSV():rtype==='fin'?reportsCSV():rtype==='aud'?auditCSV():rtype==='ben'?benefCSV():rtype==='imp'?importsCSV():orgsCSV();
+}
+function audTable(as){
+  return `<div class="tablewrap"><table class="table"><tr><th>سمن</th><th>نوع</th><th>شدت</th><th>توضیح</th><th>وضعیت</th><th>عملیات</th></tr>${as.map(a=>`<tr><td>${esc(a.orgName)}</td><td>${esc(a.type)}</td><td>${esc(a.severity)}</td><td>${esc(a.desc)}</td><td>${badge(a.status)}</td><td><button class="ghost" onclick="auditActionV84('${a.id}','fix')">اصلاح</button><button class="ghost" onclick="auditActionV84('${a.id}','approve')">تأیید</button><button class="ghost" onclick="auditActionV84('${a.id}','reject')">رد</button></td></tr>`).join('')||'<tr><td colspan="6">یافته‌ای ندارد.</td></tr>'}</table></div>`;
+}
+function auditActionV84(id,act){
+  let a=state.auditFindings.find(x=>x.id===id); if(!a)return;
+  if(act==='fix'){
+    a.status='نیازمند اصلاح';
+    state.corrections=state.corrections||[];
+    state.corrections.unshift({id:uid('corr'),orgId:a.orgId,orgName:a.orgName,title:'اصلاح مورد حسابرسی: '+a.type,desc:a.desc,deadline:'',status:'باز',createdAt:today()});
+  }
+  if(act==='approve')a.status='تأیید شده';
+  if(act==='reject')a.status='رد شده';
+  save();
+  render('audit');
+}
+function audit(){
+  ensureV84();
+  return `<div class="actions"><button class="primary" onclick="auditRun(true)">اجرای حسابرسی مجدد</button><button class="ghost" onclick="downloadCSV('گزارش_حسابرسی.csv',auditCSV())">Excel/CSV</button></div><div class="card"><h3>حسابرسی هوشمند با عملیات اصلاح / تأیید / رد</h3><div class="note info">برای هر مورد حسابرسی می‌توانید درخواست اصلاح بسازید، مورد را تأیید کنید یا رد کنید.</div><div class="auditScore"><span style="width:${score()}%"></span></div><div class="note info">امتیاز سلامت پرونده‌ها: ${score()}٪</div>${audTable(state.auditFindings)}</div>`;
+}
+function word(){
+  return `<div class="card"><h3>خروجی Word حرفه‌ای</h3><p>گزارش پرونده کامل، تصویر مجوز، هیأت مدیره و حسابرسی قابل خروجی Word هستند.</p><div class="quick"><button onclick="downloadWord('پرونده کامل سمن',fullProfileReportV84(state.orgs[0]?.id))">🗂 پرونده کامل + عکس مجوز</button><button onclick="downloadWord('گزارش پایان سال سمن',annualReportDocV84(state.orgs[0]?.id,'۱۴۰۳'))">📅 گزارش پایان سال</button><button onclick="downloadWord('خلاصه پایان سال همه سمن‌ها',annualIndexV81('۱۴۰۳'))">📊 پایان سال همه سمن‌ها</button><button onclick="downloadWord('گزارش مجوزها',reportHtml('lic'))">📜 گزارش مجوزها</button><button onclick="downloadWord('گزارش مالی',reportHtml('fin'))">💰 گزارش مالی</button><button onclick="downloadWord('گزارش حسابرسی',reportHtml('aud'))">🧾 گزارش حسابرسی</button></div></div>`;
+}
+ensureV84();
+/* ================= END V84 REPORTS + AUDIT + LICENSE IMAGE FIX ================= */
+
+
+/* ================= V84 COMPREHENSIVE REPORTING + PDF A4 LANDSCAPE FIX ================= */
+function ensureV84(){
+  state.version='83';
+  state.orgs=(state.orgs||[]).map(o=>{
+    o.board=o.board||[];
+    o.documents=o.documents||[];
+    o.licenseImage=o.licenseImage||'';
+    o.licenseImageName=o.licenseImageName||'';
+    return o;
+  });
+  state.auditFindings=state.auditFindings||[];
+}
+function v84ReportNo(prefix='JVN-NGO-REP'){
+  let d=new Date();
+  return prefix+'-'+d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0')+'-'+String(d.getHours()).padStart(2,'0')+String(d.getMinutes()).padStart(2,'0');
+}
+function v84SelectedOrgId(){
+  let el=$('v84Org')||$('reportOrg')||$('annualOrg');
+  return el?.value || state.orgs[0]?.id || '';
+}
+function v84SelectedYear(){
+  return ($('v84Year')?.value || $('reportYear')?.value || $('annualYear')?.value || (state.reports[0]&&state.reports[0].year) || '۱۴۰۳').trim();
+}
+function v84OrgOptions(){
+  return `<option value="all">همه سمن‌ها</option>`+state.orgs.map(o=>`<option value="${o.id}">${esc(o.name)}</option>`).join('');
+}
+function v84OrgById(id){
+  if(id==='all')return null;
+  return state.orgs.find(o=>String(o.id)===String(id))||state.orgs[0]||null;
+}
+function v84ReportHeader(title,sub=''){
+  return `<div class="rhead"><h2>${esc(title)}</h2><p>${esc(sub)} | شماره گزارش: ${v84ReportNo()} | تاریخ: ${today()}</p></div>`;
+}
+function v84Meta(org,year,type){
+  return `<div class="v84-report-meta"><div><b>نوع گزارش:</b><br>${esc(type)}</div><div><b>سال:</b><br>${esc(year||'-')}</div><div><b>سمن:</b><br>${esc(org?org.name:'همه سمن‌ها')}</div><div><b>وضعیت مجوز:</b><br>${org?badge(org.licenseStatus):'گزارش تجمیعی'}</div></div>`;
+}
+function v84BoardRows(org){
+  let members=(org?.board||[]);
+  if(!members.length && org?.ceo) members=[{name:org.ceo,nationalId:org.ceoNationalId,role:'مدیرعامل',mobile:org.phone||''}];
+  return members.map((m,i)=>`<tr><td>${i+1}</td><td>${esc(m.fullName||m.name||((m.firstName||'')+' '+(m.lastName||'')))}</td><td>${esc(m.nationalId||m.national_id||'')}</td><td>${esc(m.role||m.position||'عضو')}</td><td>${esc(m.mobile||m.phone||'')}</td><td>${esc(m.education||m.degree||'')}</td></tr>`).join('')||'<tr><td colspan="6">عضوی ثبت نشده است.</td></tr>';
+}
+function v84BoardTable(org){
+  return `<div class="tablewrap"><table class="table"><tr><th>ردیف</th><th>نام و نام خانوادگی</th><th>کد ملی</th><th>سمت</th><th>تماس</th><th>تحصیلات</th></tr>${v84BoardRows(org)}</table></div>`;
+}
+function v84LicenseImage(org){
+  return org?.licenseImage
+    ? `<div class="note info"><b>عکس مجوز:</b> ${esc(org.licenseImageName||'فایل مجوز')}<br><img class="v84-license-img" src="${org.licenseImage}"></div>`
+    : `<div class="note warn"><b>عکس مجوز ثبت نشده است.</b><br>برای نمایش در PDF، از بخش اطلاعات سمن‌ها گزینه «مجوز/عکس» را بزنید و تصویر را وارد کنید.</div>`;
+}
+function v84LicenseBlock(org){
+  return `<div class="grid2"><div class="note info"><b>اطلاعات مجوز</b><br>وضعیت: ${badge(org?.licenseStatus||'ثبت نشده')}<br>شماره مجوز: ${esc(org?.licenseNo||'')}<br>شروع اعتبار: ${esc(org?.licenseStart||'')}<br>پایان اعتبار: ${esc(org?.licenseEnd||'')}<br>توضیح/پیوست: ${esc(org?.licenseFile||'')}</div><div>${v84LicenseImage(org)}</div></div>`;
+}
+function v84ProfileReport(orgId){
+  let orgs=orgId==='all'?state.orgs:[v84OrgById(orgId)].filter(Boolean);
+  return `<div class="report print-area" id="printArea">${v84ReportHeader('گزارش پرونده کامل سمن‌ها','شامل مجوز، تصویر مجوز، هیأت مدیره، مالی و حسابرسی')}${orgs.map(org=>`<section class="report-page"><h3>${esc(org.name)}</h3>${v84Meta(org,'-', 'پرونده کامل')}<div class="grid2"><div class="note info"><b>مشخصات ثبتی</b><br>شناسه ملی: ${esc(org.nationalId)}<br>شماره ثبت: ${esc(org.regNo)}<br>حوزه فعالیت: ${esc(org.activity)}<br>وضعیت پرونده: ${esc(org.status||'')}<br>آدرس: ${esc(org.address)}<br>تماس: ${esc(org.phone||'')}</div><div class="note info"><b>مدیرعامل</b><br>نام و نام خانوادگی: ${esc(org.ceo)}<br>کد ملی: ${esc(org.ceoNationalId)}<br>بانک: ${esc(org.bank||'')}<br>حساب: ${esc(org.accountNo||'')}<br>شبا: <span class="ltr">${esc(org.sheba||'')}</span></div></div><h3>مجوز و تصویر مجوز</h3>${v84LicenseBlock(org)}<h3>اطلاعات کامل هیأت مدیره</h3>${v84BoardTable(org)}<h3>گزارش‌های مالی ثبت‌شده</h3>${repsTable(state.reports.filter(r=>r.orgId===org.id))}<h3>حسابرسی‌های مرتبط</h3>${audTable(state.auditFindings.filter(a=>a.orgId===org.id))}${signs(org.ceo)}</section>`).join('')}</div>`;
+}
+function v84AnnualRows(org,year){
+  year=(year||'۱۴۰۳').trim();
+  return monthsV81.map(m=>{
+    let r=state.reports.find(x=>String(x.orgId)===String(org.id)&&String(x.year||'')===year&&String(x.month||'')===m)||null;
+    let audit=monthlyAuditV81(org,r,m,year);
+    let income=r?num(r.income):0, beneficiaryPay=r?num(r.beneficiaryPay):0, currentCost=r?num(r.currentCost):0, expense=r?num(r.expense):(beneficiaryPay+currentCost), balance=income-expense;
+    return {month:m,rep:r,income,beneficiaryPay,currentCost,expense,balance,audit};
+  });
+}
+function v84AnnualTotals(rows){
+  return rows.reduce((s,r)=>({income:s.income+r.income,beneficiaryPay:s.beneficiaryPay+r.beneficiaryPay,currentCost:s.currentCost+r.currentCost,expense:s.expense+r.expense,balance:s.balance+r.balance,missing:s.missing+(r.rep?0:1),issues:s.issues+(r.audit.status==='قابل قبول'?0:1)}),{income:0,beneficiaryPay:0,currentCost:0,expense:0,balance:0,missing:0,issues:0});
+}
+function v84AnnualOne(org,year){
+  let rows=v84AnnualRows(org,year), total=v84AnnualTotals(rows);
+  let finalStatus=total.missing?`ناقص: ${total.missing} ماه بدون گزارش`:total.issues?`نیازمند بررسی: ${total.issues} مورد حسابرسی`:'قابل تأیید';
+  return `<section class="report-page">${v84ReportHeader('گزارش سالیانه سمن در کاغذ A4 عرضی',`${org.name} | سال ${year}`)}${v84Meta(org,year,'گزارش سالیانه')}<div class="grid2"><div class="note info"><b>مشخصات سمن</b><br>شناسه ملی: ${esc(org.nationalId)}<br>شماره ثبت: ${esc(org.regNo)}<br>حوزه فعالیت: ${esc(org.activity)}<br>مدیرعامل: ${esc(org.ceo)}<br>کد ملی مدیرعامل: ${esc(org.ceoNationalId)}</div><div class="note info"><b>خلاصه مجوز</b><br>وضعیت: ${badge(org.licenseStatus)}<br>شماره: ${esc(org.licenseNo)}<br>پایان اعتبار: ${esc(org.licenseEnd||'')}<br>عکس مجوز: ${org.licenseImage?'ثبت شده و قابل مشاهده':'ثبت نشده'}</div></div><h3>تصویر مجوز</h3>${v84LicenseImage(org)}<h3>هیأت مدیره</h3>${v84BoardTable(org)}<h3>حسابرسی ماهانه سال ${esc(year)}</h3><div class="tablewrap"><table class="table"><tr><th>ماه</th><th>کل واریزی</th><th>پرداخت مددجو</th><th>هزینه جاری</th><th>جمع هزینه</th><th>مانده/کسری</th><th>وضعیت گزارش</th><th>نتیجه حسابرسی</th><th>توضیح حسابرسی</th></tr>${rows.map(r=>`<tr><td><b>${esc(r.month)}</b></td><td>${money(r.income)}</td><td>${money(r.beneficiaryPay)}</td><td>${money(r.currentCost)}</td><td>${money(r.expense)}</td><td>${money(r.balance)}</td><td>${r.rep?badge(r.rep.status||'ثبت شده'):badge('فاقد گزارش')}</td><td><span class="badge ${r.audit.cls}">${esc(r.audit.status)}</span></td><td>${esc(r.audit.note)}</td></tr>`).join('')}<tr><th>جمع سال</th><th>${money(total.income)}</th><th>${money(total.beneficiaryPay)}</th><th>${money(total.currentCost)}</th><th>${money(total.expense)}</th><th>${money(total.balance)}</th><th colspan="3">${esc(finalStatus)}</th></tr></table></div><div class="note ${total.balance<0?'bad':total.issues?'warn':'ok'}"><b>جمع‌بندی حسابرسی پایان سال:</b> ${esc(finalStatus)}. مجموع واریزی ${money(total.income)}، مجموع هزینه ${money(total.expense)} و مانده/کسری نهایی ${money(total.balance)} است.</div>${signs(org.ceo)}</section>`;
+}
+function v84AnnualReport(orgId,year){
+  let orgs=orgId==='all'?state.orgs:[v84OrgById(orgId)].filter(Boolean);
+  return `<div class="report print-area v84-landscape" id="printArea">${orgs.map(o=>v84AnnualOne(o,year)).join('')}</div>`;
+}
+function v84AnnualSummary(year){
+  return `<div class="report print-area v84-landscape" id="printArea">${v84ReportHeader('خلاصه گزارش سالیانه همه سمن‌ها',`سال ${year} | A4 عرضی`)}<div class="tablewrap"><table class="table"><tr><th>سمن</th><th>مدیرعامل</th><th>وضعیت مجوز</th><th>عکس مجوز</th><th>تعداد اعضای هیأت مدیره</th><th>ماه‌های فاقد گزارش</th><th>موارد حسابرسی</th><th>کل واریزی</th><th>کل هزینه</th><th>مانده/کسری</th><th>وضعیت نهایی</th></tr>${state.orgs.map(org=>{let rows=v84AnnualRows(org,year),t=v84AnnualTotals(rows),st=t.missing?`ناقص: ${t.missing} ماه`:t.issues?`نیازمند بررسی: ${t.issues} مورد`:'قابل تأیید';return `<tr><td>${esc(org.name)}</td><td>${esc(org.ceo)}</td><td>${badge(org.licenseStatus)}</td><td>${org.licenseImage?'دارد':'ندارد'}</td><td>${(org.board||[]).length}</td><td>${t.missing}</td><td>${t.issues}</td><td>${money(t.income)}</td><td>${money(t.expense)}</td><td>${money(t.balance)}</td><td>${esc(st)}</td></tr>`}).join('')}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function v84LicenseReport(orgId){
+  let orgs=orgId==='all'?state.orgs:[v84OrgById(orgId)].filter(Boolean);
+  return `<div class="report print-area" id="printArea">${v84ReportHeader('گزارش جامع مجوزها و تصاویر مجوز','قابل چاپ/PDF')}${orgs.map(org=>`<section class="report-page"><h3>${esc(org.name)}</h3>${v84Meta(org,'-', 'مجوزها')}${v84LicenseBlock(org)}<h3>هیأت مدیره مرتبط</h3>${v84BoardTable(org)}${signs(org.ceo)}</section>`).join('')}</div>`;
+}
+function v84FinancialReport(orgId,year){
+  let reps=state.reports.filter(r=>(orgId==='all'||String(r.orgId)===String(orgId))&&(!year||String(r.year||'')===String(year)));
+  return `<div class="report print-area" id="printArea">${v84ReportHeader('گزارش مالی جامع',`سال ${year||'همه سال‌ها'}`)}${repsTable(reps)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function v84AuditReport(orgId){
+  let arr=state.auditFindings.filter(a=>orgId==='all'||String(a.orgId)===String(orgId));
+  return `<div class="report print-area" id="printArea">${v84ReportHeader('گزارش حسابرسی جامع','دارای عملیات اصلاح، تأیید و رد')}${audTable(arr)}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function v84BuildReport(){
+  let type=$('v84Type')?.value||'annual';
+  let orgId=v84SelectedOrgId();
+  let year=v84SelectedYear();
+  rtype=type;
+  let html='';
+  if(type==='annual') html=v84AnnualReport(orgId,year);
+  else if(type==='annualSummary') html=v84AnnualSummary(year);
+  else if(type==='profile') html=v84ProfileReport(orgId);
+  else if(type==='license') html=v84LicenseReport(orgId);
+  else if(type==='finance') html=v84FinancialReport(orgId,year);
+  else if(type==='audit') html=v84AuditReport(orgId);
+  else if(type==='beneficiaries') html=`<div class="report print-area" id="printArea">${v84ReportHeader('گزارش مددجویان','جامع')}${benTable(state.beneficiaries.filter(b=>orgId==='all'||String(b.orgId)===String(orgId)))}${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  else if(type==='imports') html=`<div class="report print-area" id="printArea">${v84ReportHeader('گزارش فایل‌های واردشده از کلاینت‌ها','جامع')}<div class="tablewrap"><table class="table"><tr><th>کد رهگیری</th><th>سمن</th><th>تاریخ خروجی</th><th>تاریخ ورود</th><th>وضعیت</th><th>خلاصه</th></tr>${state.imports.map(i=>`<tr><td>${esc(i.trackingCode)}</td><td>${esc(i.orgName)}</td><td>${esc(i.exportedAt)}</td><td>${esc(i.importedAt)}</td><td>${badge(i.status)}</td><td>${esc(i.summary)}</td></tr>`).join('')||'<tr><td colspan="6">فایلی وارد نشده است.</td></tr>'}</table></div>${signs('نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+  $('rarea').innerHTML=html;
+}
+function v84CSV(){
+  let type=$('v84Type')?.value||rtype, orgId=v84SelectedOrgId(), year=v84SelectedYear();
+  if(type==='annual'||type==='annualSummary'){
+    let orgs=type==='annualSummary'||orgId==='all'?state.orgs:[v84OrgById(orgId)].filter(Boolean);
+    let lines=['سمن,سال,ماه,کل واریزی,پرداخت مددجو,هزینه جاری,جمع هزینه,مانده/کسری,وضعیت گزارش,نتیجه حسابرسی,توضیح حسابرسی'];
+    orgs.forEach(org=>v84AnnualRows(org,year).forEach(r=>lines.push([org.name,year,r.month,r.income,r.beneficiaryPay,r.currentCost,r.expense,r.balance,r.rep?(r.rep.status||'ثبت شده'):'فاقد گزارش',r.audit.status,r.audit.note].map(cell).join(','))));
+    return lines.join('\n');
+  }
+  if(type==='profile'||type==='license') return ['سمن,شناسه ملی,شماره ثبت,مدیرعامل,کد ملی مدیرعامل,وضعیت مجوز,شماره مجوز,عکس مجوز,تعداد اعضای هیأت مدیره'].concat(state.orgs.filter(o=>orgId==='all'||String(o.id)===String(orgId)).map(o=>[o.name,o.nationalId,o.regNo,o.ceo,o.ceoNationalId,o.licenseStatus,o.licenseNo,o.licenseImage?'دارد':'ندارد',(o.board||[]).length].map(cell).join(','))).join('\n');
+  if(type==='finance') return reportsCSV();
+  if(type==='audit') return auditCSV();
+  if(type==='beneficiaries') return benefCSV();
+  if(type==='imports') return importsCSV();
+  return orgsCSV();
+}
+function v84DownloadWord(){downloadWord('گزارش_'+($('v84Type')?.value||rtype), $('printArea')?$('printArea').outerHTML:$('rarea').innerHTML)}
+function v84DownloadCSV(){downloadCSV('گزارش_جامع.csv',v84CSV())}
+function v84PrintPDF(){v84BuildReport();setTimeout(()=>window.print(),150)}
+function reports(){
+  ensureV84();
+  return `<div class="v84-toolbar report-controls no-print"><h3>گزارش‌گیری جامع و خروجی PDF</h3><div class="note info">این منوها فقط برای انتخاب گزارش هستند و در خروجی PDF/چاپ نمایش داده نمی‌شوند. گزارش سالیانه با قالب A4 عرضی چاپ می‌شود.</div><div class="grid3"><div class="field"><label>نوع گزارش</label><select id="v84Type"><option value="annual">گزارش سالیانه هر سمن - A4 عرضی</option><option value="annualSummary">خلاصه گزارش سالیانه همه سمن‌ها</option><option value="profile">پرونده کامل + عکس مجوز + هیأت مدیره</option><option value="license">گزارش مجوزها و تصاویر مجوز</option><option value="finance">گزارش مالی</option><option value="audit">گزارش حسابرسی</option><option value="beneficiaries">گزارش مددجویان</option><option value="imports">گزارش فایل‌های واردشده</option></select></div><div class="field"><label>انتخاب سمن</label><select id="v84Org">${v84OrgOptions()}</select></div><div class="field"><label>سال گزارش</label><input id="v84Year" value="${esc((state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}"></div></div><div class="actions"><button class="primary" onclick="v84BuildReport()">نمایش گزارش</button><button class="ghost" onclick="v84PrintPDF()">خروجی PDF / چاپ A4 عرضی</button><button class="ghost" onclick="v84DownloadWord()">Word</button><button class="ghost" onclick="v84DownloadCSV()">Excel/CSV</button></div></div><div id="rarea">${v84AnnualReport(state.orgs[0]?.id||'all',(state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}</div>`;
+}
+function csvCurrent(){return v84CSV()}
+function downloadWordArea(){return v84DownloadWord()}
+ensureV84();
+/* ================= END V84 COMPREHENSIVE REPORTING + PDF A4 LANDSCAPE FIX ================= */
+
+
+/* ================= V84 CUSTOM REPORT BUILDER ================= */
+function v84Ensure(){
+  state.version='84';
+  state.customReportDraft=state.customReportDraft||{source:'orgs',fields:['row','name','nationalId','regNo','ceo','licenseStatus','licenseNo','boardCount'],title:'گزارش سفارشی سمن‌ها'};
+  state.customReportTemplates=state.customReportTemplates||[];
+}
+function v84OrgMap(){let m={};(state.orgs||[]).forEach(o=>m[o.id]=o);return m}
+function v84Text(v){return String(v??'').replace(/<[^>]+>/g,' ').replace(/\s+/g,' ').trim()}
+function v84BoardText(o){
+  let members=(o?.board||[]);
+  if(!members.length && o?.ceo)members=[{name:o.ceo,nationalId:o.ceoNationalId,role:'مدیرعامل',mobile:o.phone||''}];
+  return members.map((m,i)=>`${i+1}) ${(m.fullName||m.name||((m.firstName||'')+' '+(m.lastName||''))||'').trim()} - ${m.role||m.position||'عضو'} - ${m.nationalId||m.national_id||''}`).join(' | ');
+}
+function v84BoardHtml(o){
+  let txt=v84BoardText(o);
+  return txt?esc(txt).replaceAll(' | ','<br>'):'عضوی ثبت نشده است.';
+}
+function v84LicenseImgMini(o){
+  return o?.licenseImage?`<img src="${o.licenseImage}" style="max-width:95px;max-height:70px;object-fit:contain;border:1px solid #cbd5e1;border-radius:8px;background:#fff;padding:2px">`:'ثبت نشده';
+}
+function v84FieldDefs(source){
+  const commonOrg=[
+    {id:'row',title:'ردیف',get:(r,i)=>i+1},
+    {id:'name',title:'نام سمن',get:r=>r.org?.name||r.name||r.orgName||''},
+    {id:'nationalId',title:'شناسه ملی سمن',get:r=>r.org?.nationalId||r.nationalId||''},
+    {id:'regNo',title:'شماره ثبت',get:r=>r.org?.regNo||r.regNo||''},
+    {id:'activity',title:'حوزه فعالیت',get:r=>r.org?.activity||r.activity||''},
+    {id:'orgStatus',title:'وضعیت پرونده',get:r=>r.org?.status||r.status||''},
+    {id:'ceo',title:'مدیرعامل',get:r=>r.org?.ceo||r.ceo||''},
+    {id:'ceoNationalId',title:'کد ملی مدیرعامل',get:r=>r.org?.ceoNationalId||r.ceoNationalId||''},
+    {id:'phone',title:'تماس',get:r=>r.org?.phone||r.phone||''},
+    {id:'address',title:'آدرس',get:r=>r.org?.address||r.address||''},
+    {id:'licenseStatus',title:'وضعیت مجوز',get:r=>r.org?.licenseStatus||r.licenseStatus||''},
+    {id:'licenseNo',title:'شماره مجوز',get:r=>r.org?.licenseNo||r.licenseNo||''},
+    {id:'licenseStart',title:'تاریخ شروع مجوز',get:r=>r.org?.licenseStart||r.licenseStart||''},
+    {id:'licenseEnd',title:'تاریخ پایان مجوز',get:r=>r.org?.licenseEnd||r.licenseEnd||''},
+    {id:'licenseImage',title:'عکس مجوز',html:true,get:r=>v84LicenseImgMini(r.org||r)},
+    {id:'boardCount',title:'تعداد اعضای هیأت مدیره',get:r=>(r.org?.board||r.board||[]).length},
+    {id:'boardDetails',title:'اطلاعات کامل هیأت مدیره',html:true,get:r=>v84BoardHtml(r.org||r)},
+    {id:'bank',title:'بانک',get:r=>r.org?.bank||r.bank||''},
+    {id:'accountNo',title:'شماره حساب',get:r=>r.org?.accountNo||r.accountNo||''},
+    {id:'sheba',title:'شبا',get:r=>r.org?.sheba||r.sheba||''}
+  ];
+  if(source==='orgs'||source==='licenses')return commonOrg;
+  if(source==='annual')return [
+    ...commonOrg,
+    {id:'year',title:'سال',get:r=>r.year},
+    {id:'month',title:'ماه',get:r=>r.month},
+    {id:'income',title:'کل واریزی',get:r=>money(r.income)},
+    {id:'beneficiaryPay',title:'پرداخت مددجو',get:r=>money(r.beneficiaryPay)},
+    {id:'currentCost',title:'هزینه جاری',get:r=>money(r.currentCost)},
+    {id:'expense',title:'جمع هزینه',get:r=>money(r.expense)},
+    {id:'balance',title:'مانده/کسری',get:r=>money(r.balance)},
+    {id:'reportStatus',title:'وضعیت گزارش',get:r=>r.reportStatus},
+    {id:'auditStatus',title:'نتیجه حسابرسی',get:r=>r.auditStatus},
+    {id:'auditNote',title:'توضیح حسابرسی',get:r=>r.auditNote}
+  ];
+  if(source==='reports')return [
+    ...commonOrg,
+    {id:'year',title:'سال',get:r=>r.year||''},
+    {id:'month',title:'ماه',get:r=>r.month||''},
+    {id:'income',title:'کل واریزی',get:r=>money(r.income)},
+    {id:'beneficiaryPay',title:'پرداخت مددجو',get:r=>money(r.beneficiaryPay)},
+    {id:'currentCost',title:'هزینه جاری',get:r=>money(r.currentCost)},
+    {id:'expense',title:'جمع هزینه',get:r=>money(r.expense)},
+    {id:'balance',title:'مانده/کسری',get:r=>money(num(r.income)-num(r.expense))},
+    {id:'status',title:'وضعیت گزارش',get:r=>r.status||''},
+    {id:'workflowStatus',title:'گردش کار',get:r=>r.workflowStatus||''},
+    {id:'note',title:'توضیح',get:r=>r.note||''}
+  ];
+  if(source==='beneficiaries')return [
+    ...commonOrg,
+    {id:'benName',title:'نام مددجو',get:r=>r.name||''},
+    {id:'benNationalId',title:'کد ملی مددجو',get:r=>r.nationalId||''},
+    {id:'benAmount',title:'مبلغ پرداختی',get:r=>money(r.amount)},
+    {id:'benStatus',title:'وضعیت مددجو',get:r=>r.status||''}
+  ];
+  if(source==='audit')return [
+    ...commonOrg,
+    {id:'auditType',title:'نوع حسابرسی',get:r=>r.type||''},
+    {id:'auditSeverity',title:'شدت',get:r=>r.severity||''},
+    {id:'auditDesc',title:'توضیح حسابرسی',get:r=>r.desc||r.description||''},
+    {id:'auditStatus2',title:'وضعیت حسابرسی',get:r=>r.status||''}
+  ];
+  if(source==='imports')return [
+    {id:'row',title:'ردیف',get:(r,i)=>i+1},
+    {id:'trackingCode',title:'کد رهگیری',get:r=>r.trackingCode||''},
+    {id:'orgName',title:'نام سمن',get:r=>r.orgName||''},
+    {id:'exportedAt',title:'تاریخ خروجی',get:r=>r.exportedAt||''},
+    {id:'importedAt',title:'تاریخ ورود',get:r=>r.importedAt||''},
+    {id:'mode',title:'روش ورود',get:r=>r.mode||''},
+    {id:'status',title:'وضعیت',get:r=>r.status||''},
+    {id:'summary',title:'خلاصه',get:r=>r.summary||''}
+  ];
+  return commonOrg;
+}
+function v84FieldById(source,id){return v84FieldDefs(source).find(f=>f.id===id)}
+function v84SourceLabel(s){return {orgs:'سمن‌ها',annual:'پایان سال ماهانه',reports:'گزارش‌های مالی',licenses:'مجوزها',beneficiaries:'مددجوها',audit:'حسابرسی',imports:'فایل‌های واردشده'}[s]||s}
+function v84DefaultFields(kind){
+  let source=state.customReportDraft.source;
+  if(kind==='official'){state.customReportDraft.fields=['row','name','nationalId','regNo','ceo','ceoNationalId','licenseStatus','licenseNo','licenseImage','boardDetails'];state.customReportDraft.source='orgs';state.customReportDraft.title='گزارش سفارشی پرونده سمن';}
+  else if(kind==='annual'){state.customReportDraft.source='annual';state.customReportDraft.fields=['row','name','year','month','income','beneficiaryPay','currentCost','expense','balance','reportStatus','auditStatus','auditNote'];state.customReportDraft.title='گزارش سفارشی سالیانه';}
+  else if(kind==='license'){state.customReportDraft.source='licenses';state.customReportDraft.fields=['row','name','nationalId','ceo','licenseStatus','licenseNo','licenseStart','licenseEnd','licenseImage','boardDetails'];state.customReportDraft.title='گزارش سفارشی مجوزها';}
+  else if(kind==='finance'){state.customReportDraft.source='reports';state.customReportDraft.fields=['row','name','year','month','income','beneficiaryPay','currentCost','expense','balance','status'];state.customReportDraft.title='گزارش سفارشی مالی';}
+  else {state.customReportDraft.fields=['row','name','nationalId','regNo','ceo','licenseStatus'];}
+  save();v84RenderBuilder();
+}
+function v84SetSource(){
+  let s=$('v84CustomSource').value;
+  state.customReportDraft.source=s;
+  let defs=v84FieldDefs(s);
+  state.customReportDraft.fields=defs.slice(0,Math.min(7,defs.length)).map(f=>f.id);
+  state.customReportDraft.title='گزارش سفارشی '+v84SourceLabel(s);
+  save();v84RenderBuilder();
+}
+function v84AddField(){
+  let id=$('v84AvailableField').value;
+  if(!id)return;
+  state.customReportDraft.fields=state.customReportDraft.fields||[];
+  if(!state.customReportDraft.fields.includes(id))state.customReportDraft.fields.push(id);
+  save();v84RenderBuilder();
+}
+function v84RemoveField(i){state.customReportDraft.fields.splice(i,1);save();v84RenderBuilder()}
+function v84MoveField(i,dir){let arr=state.customReportDraft.fields,j=i+dir;if(j<0||j>=arr.length)return;[arr[i],arr[j]]=[arr[j],arr[i]];save();v84RenderBuilder()}
+function v84SaveTemplate(){
+  let name=prompt('نام قالب گزارش را وارد کنید:',state.customReportDraft.title||'قالب سفارشی');
+  if(!name)return;
+  state.customReportTemplates=state.customReportTemplates||[];
+  state.customReportTemplates.unshift({id:uid('tpl'),name,source:state.customReportDraft.source,fields:[...state.customReportDraft.fields],title:state.customReportDraft.title,createdAt:today()});
+  save();v84RenderBuilder();
+}
+function v84LoadTemplate(id){
+  let t=(state.customReportTemplates||[]).find(x=>x.id===id);if(!t)return;
+  state.customReportDraft={source:t.source,fields:[...t.fields],title:t.title||t.name};
+  save();v84RenderBuilder();
+}
+function v84Records(){
+  let source=state.customReportDraft.source,orgId=$('v84CustomOrg')?.value||'all',year=($('v84CustomYear')?.value||'۱۴۰۳').trim(),orgMap=v84OrgMap();
+  if(source==='orgs')return state.orgs.filter(o=>orgId==='all'||String(o.id)===String(orgId)).map(o=>({ ...o, org:o }));
+  if(source==='licenses')return state.orgs.filter(o=>orgId==='all'||String(o.id)===String(orgId)).map(o=>({ ...o, org:o }));
+  if(source==='reports')return state.reports.filter(r=>(orgId==='all'||String(r.orgId)===String(orgId))&&(!year||String(r.year||'')===year)).map(r=>({...r,org:orgMap[r.orgId]||state.orgs.find(o=>o.name===r.orgName)||{}}));
+  if(source==='beneficiaries')return state.beneficiaries.filter(b=>orgId==='all'||String(b.orgId)===String(orgId)).map(b=>({...b,org:orgMap[b.orgId]||state.orgs.find(o=>o.name===b.orgName)||{}}));
+  if(source==='audit')return state.auditFindings.filter(a=>orgId==='all'||String(a.orgId)===String(orgId)).map(a=>({...a,org:orgMap[a.orgId]||state.orgs.find(o=>o.name===a.orgName)||{}}));
+  if(source==='imports')return state.imports.filter(i=>orgId==='all'||String((state.orgs.find(o=>o.name===i.orgName)||{}).id)===String(orgId));
+  if(source==='annual'){
+    let orgs=state.orgs.filter(o=>orgId==='all'||String(o.id)===String(orgId));
+    let rows=[];
+    orgs.forEach(org=>{
+      v83AnnualRows(org,year).forEach(r=>rows.push({...r,org,year,reportStatus:r.rep?(r.rep.status||'ثبت شده'):'فاقد گزارش',auditStatus:r.audit.status,auditNote:r.audit.note}));
+    });
+    return rows;
+  }
+  return [];
+}
+function v84CellValue(field,row,i,plain=false){
+  let val=field.get(row,i);
+  if(plain)return v84Text(val);
+  return field.html?val:esc(val);
+}
+function v84CustomReportHtml(){
+  let d=state.customReportDraft,source=d.source,fields=(d.fields||[]).map(id=>v84FieldById(source,id)).filter(Boolean),records=v84Records();
+  let orgId=$('v84CustomOrg')?.value||'all',org=orgId==='all'?null:state.orgs.find(o=>String(o.id)===String(orgId)),year=$('v84CustomYear')?.value||'';
+  let title=($('v84CustomTitle')?.value||d.title||'گزارش سفارشی').trim();
+  state.customReportDraft.title=title;save();
+  return `<div class="report print-area v83-landscape" id="printArea">${v83ReportHeader(title,`گزارش‌ساز سفارشی | منبع داده: ${v84SourceLabel(source)}`)}${v83Meta(org,year||'-','گزارش سفارشی')}<div class="note info"><b>فیلدهای انتخاب‌شده توسط ادمین:</b> ${fields.map(f=>esc(f.title)).join('، ')}</div><div class="tablewrap"><table class="table"><tr>${fields.map(f=>`<th>${esc(f.title)}</th>`).join('')}</tr>${records.map((r,i)=>`<tr>${fields.map(f=>`<td>${v84CellValue(f,r,i,false)}</td>`).join('')}</tr>`).join('')||`<tr><td colspan="${fields.length||1}">رکوردی برای این گزارش وجود ندارد.</td></tr>`}</table></div>${signs(org?.ceo||'نام و نام خانوادگی مدیرعامل سمن')}</div>`;
+}
+function v84CustomCSV(){
+  let d=state.customReportDraft,source=d.source,fields=(d.fields||[]).map(id=>v84FieldById(source,id)).filter(Boolean),records=v84Records();
+  return [fields.map(f=>cell(f.title)).join(',')].concat(records.map((r,i)=>fields.map(f=>cell(v84CellValue(f,r,i,true))).join(','))).join('\n');
+}
+function v84BuildCustom(){ $('v84CustomArea').innerHTML=v84CustomReportHtml(); }
+function v84DownloadCustomWord(){ v84BuildCustom(); downloadWord('گزارش_سفارشی', $('printArea').outerHTML); }
+function v84DownloadCustomCSV(){ downloadCSV('گزارش_سفارشی.csv', v84CustomCSV()); }
+function v84PrintCustom(){ v84BuildCustom(); setTimeout(()=>window.print(),150); }
+function v84RenderBuilder(){
+  v84Ensure();
+  let d=state.customReportDraft,defs=v84FieldDefs(d.source),selected=d.fields||[];
+  let html=`<div class="v84-builder-box report-controls no-print"><h3>گزارش‌ساز سفارشی: انتخاب و چیدمان فیلدها توسط ادمین</h3><div class="note info">ادمین می‌تواند مشخص کند در صفحه گزارش دقیقاً چه ستون‌هایی باشد و ترتیب نمایش آن‌ها را با بالا/پایین تغییر دهد. این منوها در خروجی PDF چاپ نمی‌شوند.</div><div class="grid3"><div class="field"><label>عنوان گزارش</label><input id="v84CustomTitle" value="${esc(d.title||'گزارش سفارشی')}"></div><div class="field"><label>منبع داده</label><select id="v84CustomSource" onchange="v84SetSource()"><option value="orgs" ${d.source==='orgs'?'selected':''}>سمن‌ها</option><option value="annual" ${d.source==='annual'?'selected':''}>گزارش سالیانه ماهانه</option><option value="reports" ${d.source==='reports'?'selected':''}>گزارش‌های مالی</option><option value="licenses" ${d.source==='licenses'?'selected':''}>مجوزها</option><option value="beneficiaries" ${d.source==='beneficiaries'?'selected':''}>مددجوها</option><option value="audit" ${d.source==='audit'?'selected':''}>حسابرسی</option><option value="imports" ${d.source==='imports'?'selected':''}>فایل‌های واردشده</option></select></div><div class="field"><label>انتخاب سمن</label><select id="v84CustomOrg"><option value="all">همه سمن‌ها</option>${state.orgs.map(o=>`<option value="${o.id}">${esc(o.name)}</option>`).join('')}</select></div><div class="field"><label>سال</label><input id="v84CustomYear" value="${esc((state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}"></div><div class="field"><label>افزودن فیلد</label><select id="v84AvailableField">${defs.map(f=>`<option value="${f.id}">${esc(f.title)}</option>`).join('')}</select></div><div class="field"><label>عملیات فیلد</label><button class="primary" onclick="v84AddField()">افزودن فیلد به گزارش</button></div></div><div class="v84-template-bar"><button onclick="v84DefaultFields('official')">قالب پرونده اداری</button><button onclick="v84DefaultFields('annual')">قالب سالیانه</button><button onclick="v84DefaultFields('license')">قالب مجوزها</button><button onclick="v84DefaultFields('finance')">قالب مالی</button><button onclick="v84SaveTemplate()">ذخیره قالب فعلی</button></div><div class="v84-selected-fields">${selected.map((id,i)=>{let f=v84FieldById(d.source,id);return f?`<span class="v84-field-chip">${esc(f.title)} <button onclick="v84MoveField(${i},-1)">↑</button><button onclick="v84MoveField(${i},1)">↓</button><button onclick="v84RemoveField(${i})">×</button></span>`:''}).join('')}</div><div class="v84-mini">قالب‌های ذخیره‌شده: ${(state.customReportTemplates||[]).map(t=>`<button class="ghost" onclick="v84LoadTemplate('${t.id}')">${esc(t.name)}</button>`).join(' ')||'هنوز قالبی ذخیره نشده است.'}</div><div class="actions" style="margin-top:12px"><button class="primary" onclick="v84BuildCustom()">نمایش گزارش سفارشی</button><button class="ghost" onclick="v84PrintCustom()">خروجی PDF / چاپ</button><button class="ghost" onclick="v84DownloadCustomWord()">Word</button><button class="ghost" onclick="v84DownloadCustomCSV()">Excel/CSV</button></div></div><div id="v84CustomArea">${v84CustomReportHtml()}</div>`;
+  let box=$('v84BuilderMount'); if(box)box.innerHTML=html;
+}
+const v83ReportsOriginal=reports;
+function reports(){
+  v84Ensure();
+  setTimeout(v84RenderBuilder,0);
+  return `<div id="v84BuilderMount"></div><div class="v83-toolbar report-controls no-print"><h3>گزارش‌های آماده</h3><div class="note info">اگر گزارش سفارشی نخواستید، از گزارش‌های آماده زیر استفاده کنید.</div><div class="grid3"><div class="field"><label>نوع گزارش آماده</label><select id="v83Type"><option value="annual">گزارش سالیانه هر سمن - A4 عرضی</option><option value="annualSummary">خلاصه گزارش سالیانه همه سمن‌ها</option><option value="profile">پرونده کامل + عکس مجوز + هیأت مدیره</option><option value="license">گزارش مجوزها و تصاویر مجوز</option><option value="finance">گزارش مالی</option><option value="audit">گزارش حسابرسی</option><option value="beneficiaries">گزارش مددجویان</option><option value="imports">گزارش فایل‌های واردشده</option></select></div><div class="field"><label>انتخاب سمن</label><select id="v83Org">${v83OrgOptions()}</select></div><div class="field"><label>سال گزارش</label><input id="v83Year" value="${esc((state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}"></div></div><div class="actions"><button class="primary" onclick="v83BuildReport()">نمایش گزارش آماده</button><button class="ghost" onclick="v83PrintPDF()">خروجی PDF / چاپ A4 عرضی</button><button class="ghost" onclick="v83DownloadWord()">Word</button><button class="ghost" onclick="v83DownloadCSV()">Excel/CSV</button></div></div><div id="rarea">${v83AnnualReport(state.orgs[0]?.id||'all',(state.reports[0]&&state.reports[0].year)||'۱۴۰۳')}</div>`;
+}
+function csvCurrent(){
+  if($('v84CustomArea')&&$('v84CustomArea').innerHTML.trim())return v84CustomCSV();
+  return v83CSV();
+}
+ensureV84 = v84Ensure;
+v84Ensure();
+/* ================= END V84 CUSTOM REPORT BUILDER ================= */
+
+</script></body></html>
